@@ -898,3 +898,2201 @@
 37:716  0:015    * GUID = <null guid>
 37:731  0:014  Custom boot screen not used because entry has unset use graphics
 37:746  0:015  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2394459854
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 1.3.2020,  19:1:38 (GMT)
+0:100  0:000  Starting Clover revision: 5092 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000) @C9C4B898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 38296523
+0:101  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E2 
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 0C55157E
+0:101  0:000  SmbiosTable.Type17->PartNumber = HMT451S6MFR8A-PB  
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'SATELLITE L50-A-1D5' with board 'VG10S'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=306C3
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000  MSR 0xE2 before patch 1E008405
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00080838_F3011800
+0:101  0:000  corrected FLEX_RATIO = 40000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 24.0/8
+0:101  0:000  Turbo: 32/32/33/34
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2400 MHz
+0:101  0:000  TSC: 2400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80014321)
+0:101  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1292 class=030200
+0:101  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:101  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:101  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:101  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:101  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:101  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:101  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:101  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:101  0:000  PCI (00|03:00.00) : 168C 0036 class=028000
+0:101  0:000   - WIFI: Vendor=Atheros
+0:101  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:101  0:000  PCI (00|04:00.00) : 1969 10A1 class=020000
+0:101  0:000   - LAN: 0 Vendor=Atheros
+0:101  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:101  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:101  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 4 bytes
+0:107  0:005  EFI\CLOVER\config.plist loaded: Success
+0:107  0:000  === [ GetListOfThemes ] ===================================
+0:110  0:002  === [ Found config plists ] ===============================
+0:110  0:000  - config.plist
+0:110  0:000  === [ GetEarlyUserSettings ] ==============================
+0:110  0:000  timeout set to 5
+0:110  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:231  0:120  KextsToPatch: 3 requested
+0:244  0:013   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:300  0:055   - patch disabled at config
+0:314  0:013   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:371  0:056   - patch disabled at config
+0:384  0:013   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:440  0:055   - patch disabled at config
+0:453  0:013  KernelToPatch: 1 requested
+0:467  0:013   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:509  0:041  Default theme: 
+0:523  0:013  ** Warning: unknown custom entry Type 'Other'
+0:549  0:026  === [ LoadDrivers ] =======================================
+1:121  0:572  Loading ApfsDriverLoader.efi  status=Success
+1:268  0:146   - driver needs connecting
+1:282  0:013  Loading FSInject.efi  status=Success
+1:328  0:046  Loading FwRuntimeServices.efi  status=Success
+1:475  0:146  Loading HFSPlus.efi  status=Success
+1:521  0:046   - driver needs connecting
+1:535  0:013  Loading OcQuirks.efi  status=Success
+1:585  0:049  Loading VirtualSmc.efi  status=Success
+1:734  0:148  2 drivers needs connecting ...
+1:747  0:013  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:775  0:027  HFS+ driver loaded
+1:789  0:013  APFS driver loaded
+1:803  0:013  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:956  0:153  === [ InitScreen ] ========================================
+2:536  0:580  Console modes reported: 5, available modes:
+2:550  0:013   - [01]: 80x25 (current mode)
+2:564  0:013   - [02]: 80x50
+2:578  0:013   - [03]: 100x31
+2:593  0:015   - [04]: 64x20
+2:607  0:013   - [05]: 102x32
+2:621  0:013  SetScreenResolution: 3840x2160 - already set
+2:648  0:027  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+2:665  0:016  Using embedded font: Success
+2:679  0:014  === [ GetMacAddress ] =====================================
+3:218  0:539  MAC address of LAN #0= 54:BE:F7:81:E5:63:
+3:329  0:110  MAC address of LAN #1= 54:BE:F7:81:E5:63:
+3:440  0:110  MAC address of LAN #2= 54:BE:F7:81:E5:63:
+3:552  0:112  MAC address of LAN #3= 54:BE:F7:81:E5:63:
+3:663  0:110  === [ ScanSPD ] ===========================================
+4:286  0:623  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+4:319  0:032  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E2E2 SerialNo=0308020906050203
+4:352  0:032  Slot: 2 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT451S6MFR8A-PBN0 SerialNo=000C05050105070E
+4:366  0:014  === [ GetAcpiTablesList ] =================================
+4:863  0:496  Get Acpi Tables List from RSDT:
+4:891  0:027   - [00]: FACP  TOSASU00 len=132
+4:904  0:013   - [01]: APIC  TOSASU00 len=146
+4:918  0:013   - [02]: FPDT  TOSASU00 len=68
+4:932  0:013   - [03]: ECDT  TOSASU00 len=193
+4:946  0:013   - [04]: SLIC  TOSASU00 len=374
+4:960  0:013   - [05]: MSDM  TOSASU00 len=85
+4:974  0:013   - [06]: LPIT  TOSASU00 len=92
+4:987  0:013   - [07]: SSDT  sensrhub len=552
+5:001  0:013   - [08]: SSDT  Cpu0Ist len=1367
+5:017  0:015   - [09]: SSDT  CpuPm len=2776
+5:030  0:013   - [10]: MCFG  TOSASU00 len=60
+5:044  0:013   - [11]: HPET  TOSASU00 len=56
+5:058  0:013   - [12]: SSDT  SataTabl len=789
+5:072  0:013   - [13]: SSDT  SaSsdt  len=6578
+5:086  0:013   - [14]: BGRT   len=56
+5:100  0:013  Calibrated TSC Frequency = 2394459854 = 2394MHz
+5:114  0:014  === [ GetUserSettings ] ===================================
+5:626  0:512  Add 2 devices:
+5:640  0:013  Add 3 properties:
+5:654  0:013   - [00]: NVidia Key: name, len: 8
+5:697  0:043   - [01]: NVidia Key: IOName, len: 9
+5:739  0:041   - [02]: NVidia Key: class-code, len: 4
+5:780  0:041  USB FixOwnership: no
+5:794  0:013  Dropping 1 tables:
+5:808  0:013   - [00]: Drop table  signature="DMAR" (52414D44) table-id="Cpu0Ist" (0074734930757043)
+6:043  0:235           - set table: 52414D44,   74734930757043 to drop: no
+6:095  0:052   - final DSDT Fix mask=00060050
+6:109  0:013  PatchesDSDT: 11 requested
+6:123  0:013   - [00]: (change APSS to APXX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:194  0:070    patch disabled at config
+6:208  0:013   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:278  0:070    patch disabled at config
+6:292  0:013   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:361  0:069    patch disabled at config
+6:375  0:013   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:457  0:082    patch disabled at config
+6:471  0:013   - [04]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:540  0:069    patch disabled at config
+6:554  0:013   - [05]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:623  0:069   - [06]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:692  0:069    patch disabled at config
+6:706  0:013   - [07]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:777  0:070    patch disabled at config
+6:791  0:013   - [08]: (change _REG to XREG in EC0) lenToFind: 7, lenToReplace: 7, Target Bridge: <null string>
+6:860  0:069    patch disabled at config
+6:874  0:013   - [09]: (ALS: change Method(RALS,0,S) XALS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+6:943  0:069    patch disabled at config
+6:957  0:013   - [10]: (change IEC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:026  0:069  Using ProductName from config: MacBookPro11,1
+7:041  0:015  BiosVersion: not set, Using BiosVersion from clover
+7:055  0:013  BiosVersion: MBP111.88Z.F000.B00.1907241312
+7:069  0:013  BiosReleaseDate: 07/24/2019
+7:083  0:013  Using EfiVersion from clover: 157.0.0.0.0
+7:097  0:013  Using FirmwareFeatures from clover: 0xE80FE137
+7:111  0:013  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+7:125  0:013  Using PlatformFeature from clover: 0x2
+7:142  0:017  === [ Found DSDT tables ] =================================
+7:789  0:646  === [ ScanVolumes ] =======================================
+8:361  0:572  Found 7 volumes with blockIO
+8:375  0:013  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)
+8:405  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:418  0:013          USB volume
+8:432  0:013          USB volume
+8:446  0:013  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+8:476  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:504  0:028          USB volume
+8:518  0:013          USB volume
+8:535  0:017          This is SelfVolume !!
+8:549  0:013  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+8:578  0:029          USB volume
+8:592  0:013          USB volume
+8:606  0:013  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+8:666  0:060  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+8:696  0:029          Found optical drive
+8:709  0:013  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,C85106FB-B550-431F-95EB-62E0556752F3,0x28,0x64000)
+8:738  0:028          Result of bootcode detection: bootable unknown (legacy)
+8:760  0:021  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)
+8:788  0:028          Result of bootcode detection: bootable unknown (legacy)
+8:802  0:013  No AudioIoProtocols, status=Not Found
+8:817  0:015  === [ InitTheme ] =========================================
+9:412  0:594  use daylight theme
+9:426  0:013   using embedded theme
+9:440  0:013  got embedded sound
+9:453  0:013    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+9:467  0:013  output to channel 0 with volume 70, len=25600
+9:481  0:013   sound channels=2 bits=16 freq=8000
+9:495  0:014  sound converted to 48kHz
+9:509  0:013  not found AudioIo to play
+9:523  0:013  sound play end with status=Not Found
+9:539  0:015  Using embedded font: Success
+9:553  0:014  theme inited
+9:567  0:013  Chosen embedded theme
+9:581  0:013  after NVRAM boot-args=-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check
+9:594  0:013  === [ Dump SMC keys from NVRAM ] ==========================
+9:982  0:387  found AppleSMC protocol
+10:001  0:018  === [ AddCustomEntries ] ==================================
+10:500  0:499  Custom entry 0 skipped because it is disabled.
+10:514  0:013  === [ ScanLoader ] ========================================
+11:109  0:595  - [01]: 'BOOT'
+11:142  0:033          AddLoaderEntry for Volume Name=BOOT
+11:156  0:013          skipped because entry is hidden
+11:170  0:013  - [02]: 'macOS Base System'
+11:209  0:038          AddLoaderEntry for Volume Name=macOS Base System
+11:222  0:013      Not match custom entry 0: Type: not match
+11:273  0:050  - [05]: 'EFI'
+11:300  0:027  Scanning legacy ...
+11:314  0:013  === [ AddCustomTool ] =====================================
+11:883  0:569  found tool \EFI\CLOVER\tools\Shell64U.efi
+11:897  0:013  Checking EFI partition Volume 5 for Clover
+11:911  0:014  === [ GetEfiBootDeviceFromNvram ] =========================
+12:286  0:374   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)\System\Library\CoreServices\boot.efii
+12:300  0:013    - Volume: 'PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)'
+12:313  0:013    - LoaderPath: '\System\Library\CoreServices\boot.efi'
+12:329  0:015  === [ FindStartupDiskVolume ] =============================
+12:758  0:429    - Volume: partition = PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+12:772  0:013     - searching for that partition and loader '\System\Library\CoreServices\boot.efi'
+12:786  0:013      - found entry 0. 'Boot macOS Install from macOS Base System', Volume 'macOS Base System', '\System\Library\CoreServices\boot.efi'
+12:800  0:013  Boot redirected to Entry 0. 'Boot macOS Install from macOS Base System'
+12:815  0:015  DefaultIndex=0 and MainMenu.EntryCount=6
+13:028  0:213  GUI ready
+19:075  6:046  exit from MainMenu 4
+19:088  0:013  === [ StartLoader ] =======================================
+19:656  0:567  Finally: ExternalClock=25MHz BusSpeed=99770kHz CPUFreq=2394MHz PIS: hw.busfrequency=100000000Hz
+19:684  0:027  Loading boot.efi  status=Success
+19:941  0:256  GetOSVersion: 10.15.3 (19D76)
+19:968  0:027  Filtering KextPatches:
+19:995  0:026   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:023  0:027   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:051  0:027   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:080  0:029  Filtering KernelPatches:
+20:094  0:013   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+22:122  2:027  Will not patch boot.efi
+22:136  0:013  === [ PatchSmbios ] =======================================
+22:704  0:567  insert table 9 for dev 0:0
+22:717  0:013  insert table 9 for dev 0:0
+22:731  0:013  Table 11 present, but rewritten for us
+22:747  0:016  Trusting SMBIOS...
+22:761  0:013  Detected alternating SMBIOS channel banks
+22:775  0:013  Channels: 2
+22:789  0:013  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+23:149  0:360   partNum=8KTF51264HZ-1G6E2 
+23:163  0:013  SMBIOS Type 17 Index = 0 => 0 0:
+23:177  0:013  BANK 0 DIMM0 1600MHz 4096MB
+23:191  0:013   partNum=HMT451S6MFR8A-PB  
+23:205  0:013  SMBIOS Type 17 Index = 1 => 1 2:
+23:219  0:013  BANK 1 DIMM0 1600MHz 4096MB
+23:234  0:015  mTotalSystemMemory = 8192
+23:248  0:013  NumberOfMemoryDevices = 2
+23:263  0:014  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+23:276  0:013  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+23:290  0:013  Table 131 is present, CPUType=10
+23:304  0:013  Change to: 705
+23:318  0:013  === [ PatchACPI ] =========================================
+23:915  0:596  Xsdt reallocation done
+23:928  0:013  old FADT length=10C
+23:942  0:013   SignatureFixup: 0xD366EE16 -> 0x0
+23:962  0:019  Apply DsdtFixMask=0x00060050
+23:986  0:024     drop _DSM mask=0x0000
+24:000  0:013  === [ FixBiosDsdt ] =======================================
+24:570  0:569  Patching DSDT:
+24:583  0:013   - [change APSS to APXX]: disabled
+24:611  0:027   - [change _DSM to XDSM]: disabled
+24:639  0:027   - [change EHC1 to EH01]: disabled
+24:667  0:027   - [change EHC2 to EH02]: disabled
+24:694  0:027   - [change _OSI to XOSI]: disabled
+24:722  0:027   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+24:765  0:043   - [change SAT0 to SATA]: disabled
+24:793  0:027   - [change LPC to LPCB]: disabled
+24:821  0:027   - [change _REG to XREG in EC0]: disabled
+24:849  0:027   - [ALS: change Method(RALS,0,S) XALS]: disabled
+24:876  0:027   - [change IEC to EC]: pattern 4945435F, patched at: [ (51A7) (552) (E5) (51FF) (1DA7) (20) (53) (22F) (15) (15) (22) (F) (F) (15) (F) (64) (CF) (AA) (15) (28) (19) (F) (F) (F) (5B) (50) (33B) (3E) (61) (62) (19D) (36E) (13) (13) (47) (13) (13) (4C) (13) (13) (154) (40) (8E) (13) (13) (84) (28) (35) (477) (14A) (17E) (86A) (17) (146A) (F09) (1A3) (14) (3C) (14) (31) (14) (29) (2B) (14) (63) (1DCC) (178E) (281) (23) (804) (D4) (27) (6F5) (83) (C3E) (17C) (10A) (443) (1D6) (1E) (2D) (39) (9F) (14) (1A) (1B) (4A) (1B) (21) (1B) (29) (1B) (21) (1B) (2D) (1B) (21) (1B) (29) (1B) (27) (1B) (21) (1B) (26) (1B) (58) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (F7) (10) (10) (28) (14) (15) (14) (CC) (21) (3D) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (FA) (10) (10) (2E3) (19) (28) (14) (17) (24E) (1B) (D1) (1B) (12A) (2A) (22) (1E) (D5) (1E) (17E) (1B) (34) (1B) (F3) (2DF) (17) (230) (15) (275) (4A) (231) (63) (7C) (7E) (14) (ADF) (6F) (1D) (1F) (9B) (14) (2E) (14) (17E) (37) (37) (177) (1C) (E2F) (16) (119) (18) (21) (15) (55) (23) (7D) (19) (15) (2A) (F9) (2C) (278) (4C) (2C) (20F) (25) (1A) (17) (64) (6D) (65) (7B) (11) (84) (95) (43) (4C) (10) (10) (15) (14) (1E) (10) (10) (16) (14) (170A) (3E) (29) (1F) (1C) (2D) (20) (2E) (1F) (26) (15) (2A) (26) (3F) (35) (37) (936) (2AC) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (13) (3C) (17) (13) (18) (18) (13) (13) (17) (31) (7C) (1F) (23) (2D) (49) (18) (13) (13) (21) (49) (BA) (12B) ]
+28:861  3:984    0 replacements
+28:875  0:014  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+28:889  0:013  found RTC had IRQNoFlag will move -3 bytes
+28:903  0:013  found PIC had IRQNoFlag will move -3 bytes
+28:916  0:013  Start HPET Fix
+28:932  0:015  PreCleanup XSDT: count=15, length=156
+28:946  0:013  PreCleanup XSDT, corrected XSDT: count=15, length=156
+28:960  0:013  === [ ACPIDropTables ] ====================================
+29:488  0:527  Patching SSDT sensrhub Length=552
+29:502  0:013  0. [change APSS to APXX]: disabled
+29:529  0:027  1. [change _DSM to XDSM]: disabled
+29:557  0:027  2. [change EHC1 to EH01]: disabled
+29:585  0:027  3. [change EHC2 to EH02]: disabled
+29:612  0:027  4. [change _OSI to XOSI]: disabled
+29:640  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+29:683  0:043  6. [change SAT0 to SATA]: disabled
+29:711  0:027  7. [change LPC to LPCB]: disabled
+29:739  0:027  8. [change _REG to XREG in EC0]: disabled
+29:766  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+29:794  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+29:836  0:041    0 replacements
+29:850  0:013  Patching SSDT Cpu0Ist Length=1367
+29:864  0:013  0. [change APSS to APXX]: disabled
+29:893  0:029  1. [change _DSM to XDSM]: disabled
+29:921  0:027  2. [change EHC1 to EH01]: disabled
+29:948  0:027  3. [change EHC2 to EH02]: disabled
+29:976  0:027  4. [change _OSI to XOSI]: disabled
+30:004  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+30:045  0:041  6. [change SAT0 to SATA]: disabled
+30:073  0:027  7. [change LPC to LPCB]: disabled
+30:101  0:027  8. [change _REG to XREG in EC0]: disabled
+30:128  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+30:169  0:040  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+30:211  0:041    0 replacements
+30:225  0:013  Patching SSDT CpuPm Length=2776
+30:239  0:013  0. [change APSS to APXX]: disabled
+30:266  0:027  1. [change _DSM to XDSM]: disabled
+30:294  0:027  2. [change EHC1 to EH01]: disabled
+30:322  0:027  3. [change EHC2 to EH02]: disabled
+30:350  0:027  4. [change _OSI to XOSI]: disabled
+30:377  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+30:420  0:043  6. [change SAT0 to SATA]: disabled
+30:448  0:027  7. [change LPC to LPCB]: disabled
+30:476  0:027  8. [change _REG to XREG in EC0]: disabled
+30:504  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+30:531  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+30:573  0:041    0 replacements
+30:587  0:013  Found OperationRegion(PPMT, SystemMemory, CB5EEF18, ...)
+30:601  0:013  Patching SSDT SataTabl Length=789
+30:614  0:013  0. [change APSS to APXX]: disabled
+30:644  0:029  1. [change _DSM to XDSM]: disabled
+30:672  0:027  2. [change EHC1 to EH01]: disabled
+30:699  0:027  3. [change EHC2 to EH02]: disabled
+30:727  0:027  4. [change _OSI to XOSI]: disabled
+30:755  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+30:796  0:041  6. [change SAT0 to SATA]: disabled
+30:824  0:027  7. [change LPC to LPCB]: disabled
+30:876  0:052  8. [change _REG to XREG in EC0]: disabled
+30:904  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+30:933  0:029  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+30:975  0:041    0 replacements
+30:989  0:013  Patching SSDT SaSsdt  Length=6578
+31:003  0:013  0. [change APSS to APXX]: disabled
+31:030  0:027  1. [change _DSM to XDSM]: disabled
+31:058  0:027  2. [change EHC1 to EH01]: disabled
+31:086  0:027  3. [change EHC2 to EH02]: disabled
+31:114  0:027  4. [change _OSI to XOSI]: disabled
+31:142  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+31:196  0:054  6. [change SAT0 to SATA]: disabled
+31:224  0:027  7. [change LPC to LPCB]: disabled
+31:252  0:028  8. [change _REG to XREG in EC0]: disabled
+31:280  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+31:308  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+31:349  0:041    0 replacements
+31:363  0:013  Found OperationRegion(SANV, SystemMemory, CB5E1E18, ...)
+31:377  0:013  Found OperationRegion(CCDC, SystemMemory, 80000000, ...)
+31:393  0:015  === [ ACPIPatchedAML ] ====================================
+31:919  0:526  Unsorted
+31:933  0:013  Inserting SSDT-EC.AML from EFI\CLOVER\ACPI\patched: size=63 ... Success
+31:976  0:043  ApicCPUNum=8
+31:990  0:013  Maximum control=0x18
+32:004  0:013  Turbo control=0x22
+32:018  0:013  P-States: min 0x8, max 0x22
+32:032  0:013  SSDT with plugin-type without P-States is generated
+32:046  0:013  Cleanup XSDT: count=17, length=172
+32:059  0:013  corrected XSDT count=17, length=172
+32:075  0:015  === [ RestSetup macOS ] ===================================
+32:590  0:514  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+32:604  0:014     Add key=alc-layout-id valuelen=4
+32:618  0:013  add device: PciRoot(0x0)/Pci(0x2,0x0)
+32:632  0:013     Add key=framebuffer-patch-enable valuelen=4
+32:646  0:013     Add key=framebuffer-cursormem valuelen=4
+32:659  0:013     Add key=device-id valuelen=4
+32:673  0:013     Add key=AAPL,ig-platform-id valuelen=4
+32:687  0:013  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+32:702  0:015    FakeID Intel GFX = 0x04128086
+32:716  0:013    ig-platform-id = 0x0A260006
+32:730  0:013  Intel GFX revision  = 0x6
+32:744  0:014  stringlength = 1384
+32:758  0:013  CurrentMode: Width=3840 Height=2160
+32:772  0:013  Beginning FSInjection
+32:787  0:014  Use origin smbios table type 1 guid.
+32:802  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+32:816  0:013  Extra kext: EFI\CLOVER\kexts\Other\AtherosE2200Ethernet.kext (v.2.3.0)
+32:854  0:037  Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.1.1)
+32:881  0:027  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.1)
+32:906  0:025  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.1)
+32:929  0:022  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1)
+32:951  0:022  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1)
+32:976  0:024  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+33:032  0:056  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.2.1.1)
+33:063  0:030    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.2.1.1)
+33:089  0:026    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext.dSYM (v.2.1.1)
+33:110  0:020    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.2.1.1)
+33:136  0:026    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext.dSYM (v.2.1.1)
+33:157  0:020    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.2.1.1)
+33:186  0:029    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext.dSYM (v.2.1.1)
+33:205  0:019  Extra kext: EFI\CLOVER\kexts\Other\VoodooInput.kext (v.1.0.2)
+33:236  0:030  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+33:312  0:076  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.3)
+33:342  0:029  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+33:379  0:037  SetStartupDiskVolume:
+33:393  0:013    * Volume: 'macOS Base System'
+33:406  0:013    * LoaderPath: '\System\Library\CoreServices\boot.efi'
+33:420  0:013    * DevPath: macOS Base System
+33:434  0:013    * GUID = <null guid>
+33:448  0:013  Custom boot screen not used because entry has unset use graphics
+33:462  0:013  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2394455615
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 1.3.2020,  20:10:21 (GMT)
+0:100  0:000  Starting Clover revision: 5092 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000) @C9C4B898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 38296523
+0:101  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E2 
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 0C55157E
+0:101  0:000  SmbiosTable.Type17->PartNumber = HMT451S6MFR8A-PB  
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'SATELLITE L50-A-1D5' with board 'VG10S'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=306C3
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000  MSR 0xE2 before patch 1E008405
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00080838_F3011800
+0:101  0:000  corrected FLEX_RATIO = 40000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 24.0/8
+0:101  0:000  Turbo: 32/32/33/34
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2400 MHz
+0:101  0:000  TSC: 2400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80014321)
+0:101  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1292 class=030200
+0:101  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:101  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:101  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:101  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:101  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:101  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:101  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:101  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:101  0:000  PCI (00|03:00.00) : 168C 0036 class=028000
+0:101  0:000   - WIFI: Vendor=Atheros
+0:101  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:101  0:000  PCI (00|04:00.00) : 1969 10A1 class=020000
+0:101  0:000   - LAN: 0 Vendor=Atheros
+0:101  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:101  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:101  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 4 bytes
+0:107  0:005  EFI\CLOVER\config.plist loaded: Success
+0:107  0:000  === [ GetListOfThemes ] ===================================
+0:109  0:002  === [ Found config plists ] ===============================
+0:109  0:000  - config.plist
+0:109  0:000  === [ GetEarlyUserSettings ] ==============================
+0:109  0:000  timeout set to 5
+0:109  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:215  0:105  KextsToPatch: 3 requested
+0:228  0:013   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:284  0:055   - patch disabled at config
+0:298  0:013   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:353  0:055   - patch disabled at config
+0:367  0:013   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:424  0:057   - patch disabled at config
+0:438  0:013  KernelToPatch: 1 requested
+0:452  0:013   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:494  0:041  Default theme: 
+0:508  0:013  ** Warning: unknown custom entry Type 'Other'
+0:522  0:013  === [ LoadDrivers ] =======================================
+1:098  0:575  Loading ApfsDriverLoader.efi  status=Success
+1:245  0:147   - driver needs connecting
+1:259  0:013  Loading FSInject.efi  status=Success
+1:305  0:045  Loading FwRuntimeServices.efi  status=Success
+1:451  0:145  Loading HFSPlus.efi  status=Success
+1:496  0:045   - driver needs connecting
+1:510  0:013  Loading OcQuirks.efi  status=Success
+1:559  0:049  Loading VirtualSmc.efi  status=Success
+1:705  0:145  2 drivers needs connecting ...
+1:719  0:013  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:761  0:042  HFS+ driver loaded
+1:775  0:013  APFS driver loaded
+1:789  0:013  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:979  0:190  === [ InitScreen ] ========================================
+2:553  0:573  Console modes reported: 5, available modes:
+2:566  0:013   - [01]: 80x25 (current mode)
+2:580  0:013   - [02]: 80x50
+2:594  0:013   - [03]: 100x31
+2:607  0:013   - [04]: 64x20
+2:621  0:013   - [05]: 102x32
+2:635  0:013  SetScreenResolution: 3840x2160 - already set
+2:664  0:029  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+2:681  0:016  Using embedded font: Success
+2:696  0:014  === [ GetMacAddress ] =====================================
+3:241  0:545  MAC address of LAN #0= 54:BE:F7:81:E5:63:
+3:353  0:111  MAC address of LAN #1= 54:BE:F7:81:E5:63:
+3:465  0:111  MAC address of LAN #2= 54:BE:F7:81:E5:63:
+3:576  0:111  MAC address of LAN #3= 54:BE:F7:81:E5:63:
+3:688  0:111  === [ ScanSPD ] ===========================================
+4:319  0:631  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+4:352  0:032  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E2E2 SerialNo=0308020906050203
+4:385  0:032  Slot: 2 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT451S6MFR8A-PBN0 SerialNo=000C05050105070E
+4:399  0:014  === [ GetAcpiTablesList ] =================================
+4:888  0:489  Get Acpi Tables List from RSDT:
+4:916  0:028   - [00]: FACP  TOSASU00 len=132
+4:932  0:015   - [01]: APIC  TOSASU00 len=146
+4:946  0:014   - [02]: FPDT  TOSASU00 len=68
+4:960  0:014   - [03]: ECDT  TOSASU00 len=193
+4:974  0:014   - [04]: SLIC  TOSASU00 len=374
+4:988  0:014   - [05]: MSDM  TOSASU00 len=85
+5:002  0:013   - [06]: LPIT  TOSASU00 len=92
+5:016  0:013   - [07]: SSDT  sensrhub len=552
+5:030  0:013   - [08]: SSDT  Cpu0Ist len=1367
+5:044  0:013   - [09]: SSDT  CpuPm len=2776
+5:058  0:013   - [10]: MCFG  TOSASU00 len=60
+5:072  0:013   - [11]: HPET  TOSASU00 len=56
+5:099  0:026   - [12]: SSDT  SataTabl len=789
+5:113  0:014   - [13]: SSDT  SaSsdt  len=6578
+5:127  0:013   - [14]: BGRT   len=56
+5:141  0:014  Calibrated TSC Frequency = 2394455615 = 2394MHz
+5:155  0:014  === [ GetUserSettings ] ===================================
+5:671  0:516  Add 2 devices:
+5:685  0:014  Add 3 properties:
+5:699  0:013   - [00]: NVidia Key: name, len: 8
+5:741  0:041   - [01]: NVidia Key: IOName, len: 9
+5:783  0:041   - [02]: NVidia Key: class-code, len: 4
+5:827  0:043  USB FixOwnership: no
+5:841  0:014  Dropping 1 tables:
+5:855  0:013   - [00]: Drop table  signature="DMAR" (52414D44) table-id="Cpu0Ist" (0074734930757043)
+6:093  0:238           - set table: 52414D44,   74734930757043 to drop: no
+6:146  0:052   - final DSDT Fix mask=00060050
+6:160  0:014  PatchesDSDT: 11 requested
+6:174  0:013   - [00]: (change APSS to APXX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:244  0:070    patch disabled at config
+6:258  0:014   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:330  0:071    patch disabled at config
+6:344  0:014   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:414  0:070    patch disabled at config
+6:428  0:013   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:498  0:070    patch disabled at config
+6:512  0:014   - [04]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:584  0:071    patch disabled at config
+6:597  0:013   - [05]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:667  0:070   - [06]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:737  0:069    patch disabled at config
+6:751  0:013   - [07]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:821  0:069    patch disabled at config
+6:835  0:013   - [08]: (change _REG to XREG in EC0) lenToFind: 7, lenToReplace: 7, Target Bridge: <null string>
+6:918  0:082    patch disabled at config
+6:932  0:013   - [09]: (ALS: change Method(RALS,0,S) XALS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:001  0:069    patch disabled at config
+7:015  0:013   - [10]: (change IEC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:086  0:070  Using ProductName from config: MacBookPro11,1
+7:100  0:013  BiosVersion: not set, Using BiosVersion from clover
+7:114  0:013  BiosVersion: MBP111.88Z.F000.B00.1907241312
+7:129  0:015  BiosReleaseDate: 07/24/2019
+7:143  0:013  Using EfiVersion from clover: 157.0.0.0.0
+7:157  0:014  Using FirmwareFeatures from clover: 0xE80FE137
+7:171  0:013  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+7:185  0:014  Using PlatformFeature from clover: 0x2
+7:203  0:018  === [ Found DSDT tables ] =================================
+7:850  0:646  === [ ScanVolumes ] =======================================
+8:429  0:579  Found 7 volumes with blockIO
+8:445  0:015  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)
+8:475  0:030          Result of bootcode detection: bootable unknown (legacy)
+8:488  0:013          USB volume
+8:502  0:013          USB volume
+8:516  0:013  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+8:546  0:030          Result of bootcode detection: bootable unknown (legacy)
+8:560  0:013          USB volume
+8:574  0:013          USB volume
+8:592  0:017          This is SelfVolume !!
+8:607  0:015  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+8:637  0:029          USB volume
+8:651  0:013          USB volume
+8:665  0:014  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+8:733  0:068  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+8:761  0:027          Found optical drive
+8:774  0:013  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,C85106FB-B550-431F-95EB-62E0556752F3,0x28,0x64000)
+8:818  0:043          Result of bootcode detection: bootable unknown (legacy)
+8:849  0:030  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)
+8:877  0:028          Result of bootcode detection: bootable unknown (legacy)
+8:891  0:014  No AudioIoProtocols, status=Not Found
+8:905  0:014  === [ InitTheme ] =========================================
+9:507  0:601  use night theme
+9:523  0:015   using embedded theme
+9:537  0:014  got embedded sound
+9:550  0:013    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+9:564  0:013  output to channel 0 with volume 70, len=25600
+9:578  0:013   sound channels=2 bits=16 freq=8000
+9:592  0:014  sound converted to 48kHz
+9:606  0:013  not found AudioIo to play
+9:620  0:014  sound play end with status=Not Found
+9:636  0:015  Using embedded font: Success
+9:651  0:015  theme inited
+9:665  0:014  Chosen embedded theme
+9:679  0:014  after NVRAM boot-args=-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check
+9:695  0:015  === [ Dump SMC keys from NVRAM ] ==========================
+10:088  0:392  found AppleSMC protocol
+10:107  0:019  === [ AddCustomEntries ] ==================================
+10:612  0:504  Custom entry 0 skipped because it is disabled.
+10:626  0:014  === [ ScanLoader ] ========================================
+11:215  0:589  - [01]: 'BOOT'
+11:249  0:033          AddLoaderEntry for Volume Name=BOOT
+11:264  0:015          skipped because entry is hidden
+11:278  0:014  - [02]: 'macOS Base System'
+11:318  0:040          AddLoaderEntry for Volume Name=macOS Base System
+11:332  0:013      Not match custom entry 0: Type: not match
+11:383  0:050  - [05]: 'EFI'
+11:411  0:027  Scanning legacy ...
+11:424  0:013  === [ AddCustomTool ] =====================================
+12:022  0:597  found tool \EFI\CLOVER\tools\Shell64U.efi
+12:036  0:013  Checking EFI partition Volume 5 for Clover
+12:050  0:014  === [ GetEfiBootDeviceFromNvram ] =========================
+12:443  0:392   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)\System\Library\CoreServices\boot.efii
+12:457  0:014    - Volume: 'PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)'
+12:471  0:013    - LoaderPath: '\System\Library\CoreServices\boot.efi'
+12:485  0:013  === [ FindStartupDiskVolume ] =============================
+12:919  0:434    - Volume: partition = PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+12:935  0:015     - searching for that partition and loader '\System\Library\CoreServices\boot.efi'
+12:949  0:014      - found entry 0. 'Boot macOS Install from macOS Base System', Volume 'macOS Base System', '\System\Library\CoreServices\boot.efi'
+12:963  0:014  Boot redirected to Entry 0. 'Boot macOS Install from macOS Base System'
+12:978  0:014  DefaultIndex=0 and MainMenu.EntryCount=6
+13:266  0:288  GUI ready
+19:318  6:051  exit from MainMenu 4
+19:332  0:013  === [ StartLoader ] =======================================
+19:909  0:577  Finally: ExternalClock=25MHz BusSpeed=99769kHz CPUFreq=2394MHz PIS: hw.busfrequency=100000000Hz
+19:937  0:028  Loading boot.efi  status=Success
+20:269  0:331  GetOSVersion: 10.15.3 (19D76)
+20:297  0:028  Filtering KextPatches:
+20:311  0:013   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:340  0:029   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:368  0:027   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+20:396  0:028  Filtering KernelPatches:
+20:423  0:027   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+22:452  2:028  Will not patch boot.efi
+22:466  0:013  === [ PatchSmbios ] =======================================
+23:043  0:577  insert table 9 for dev 0:0
+23:057  0:013  insert table 9 for dev 0:0
+23:071  0:013  Table 11 present, but rewritten for us
+23:086  0:014  Trusting SMBIOS...
+23:100  0:014  Detected alternating SMBIOS channel banks
+23:116  0:015  Channels: 2
+23:130  0:014  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+23:496  0:365   partNum=8KTF51264HZ-1G6E2 
+23:510  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+23:524  0:014  BANK 0 DIMM0 1600MHz 4096MB
+23:538  0:014   partNum=HMT451S6MFR8A-PB  
+23:553  0:014  SMBIOS Type 17 Index = 1 => 1 2:
+23:568  0:014  BANK 1 DIMM0 1600MHz 4096MB
+23:583  0:014  mTotalSystemMemory = 8192
+23:597  0:014  NumberOfMemoryDevices = 2
+23:611  0:014  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+23:627  0:015  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+23:641  0:014  Table 131 is present, CPUType=10
+23:655  0:013  Change to: 705
+23:669  0:013  === [ PatchACPI ] =========================================
+24:302  0:633  Xsdt reallocation done
+24:316  0:014  old FADT length=10C
+24:330  0:014   SignatureFixup: 0xD366EE16 -> 0x0
+24:350  0:019  Apply DsdtFixMask=0x00060050
+24:364  0:013     drop _DSM mask=0x0000
+24:378  0:014  === [ FixBiosDsdt ] =======================================
+24:955  0:576  Patching DSDT:
+24:969  0:014   - [change APSS to APXX]: disabled
+24:997  0:028   - [change _DSM to XDSM]: disabled
+25:025  0:028   - [change EHC1 to EH01]: disabled
+25:053  0:028   - [change EHC2 to EH02]: disabled
+25:081  0:028   - [change _OSI to XOSI]: disabled
+25:110  0:028   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+25:152  0:042   - [change SAT0 to SATA]: disabled
+25:181  0:028   - [change LPC to LPCB]: disabled
+25:209  0:028   - [change _REG to XREG in EC0]: disabled
+25:249  0:039   - [ALS: change Method(RALS,0,S) XALS]: disabled
+25:277  0:028   - [change IEC to EC]: pattern 4945435F, patched at: [ (51A7) (552) (E5) (51FF) (1DA7) (20) (53) (22F) (15) (15) (22) (F) (F) (15) (F) (64) (CF) (AA) (15) (28) (19) (F) (F) (F) (5B) (50) (33B) (3E) (61) (62) (19D) (36E) (13) (13) (47) (13) (13) (4C) (13) (13) (154) (40) (8E) (13) (13) (84) (28) (35) (477) (14A) (17E) (86A) (17) (146A) (F09) (1A3) (14) (3C) (14) (31) (14) (29) (2B) (14) (63) (1DCC) (178E) (281) (23) (804) (D4) (27) (6F5) (83) (C3E) (17C) (10A) (443) (1D6) (1E) (2D) (39) (9F) (14) (1A) (1B) (4A) (1B) (21) (1B) (29) (1B) (21) (1B) (2D) (1B) (21) (1B) (29) (1B) (27) (1B) (21) (1B) (26) (1B) (58) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (F7) (10) (10) (28) (14) (15) (14) (CC) (21) (3D) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (FA) (10) (10) (2E3) (19) (28) (14) (17) (24E) (1B) (D1) (1B) (12A) (2A) (22) (1E) (D5) (1E) (17E) (1B) (34) (1B) (F3) (2DF) (17) (230) (15) (275) (4A) (231) (63) (7C) (7E) (14) (ADF) (6F) (1D) (1F) (9B) (14) (2E) (14) (17E) (37) (37) (177) (1C) (E2F) (16) (119) (18) (21) (15) (55) (23) (7D) (19) (15) (2A) (F9) (2C) (278) (4C) (2C) (20F) (25) (1A) (17) (64) (6D) (65) (7B) (11) (84) (95) (43) (4C) (10) (10) (15) (14) (1E) (10) (10) (16) (14) (170A) (3E) (29) (1F) (1C) (2D) (20) (2E) (1F) (26) (15) (2A) (26) (3F) (35) (37) (936) (2AC) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (13) (3C) (17) (13) (18) (18) (13) (13) (17) (31) (7C) (1F) (23) (2D) (49) (18) (13) (13) (21) (49) (BA) (12B) ]
+29:411  4:134    0 replacements
+29:426  0:015  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+29:440  0:014  found RTC had IRQNoFlag will move -3 bytes
+29:455  0:014  found PIC had IRQNoFlag will move -3 bytes
+29:469  0:014  Start HPET Fix
+29:484  0:015  PreCleanup XSDT: count=15, length=156
+29:498  0:014  PreCleanup XSDT, corrected XSDT: count=15, length=156
+29:512  0:014  === [ ACPIDropTables ] ====================================
+30:062  0:549  Patching SSDT sensrhub Length=552
+30:076  0:014  0. [change APSS to APXX]: disabled
+30:104  0:027  1. [change _DSM to XDSM]: disabled
+30:132  0:028  2. [change EHC1 to EH01]: disabled
+30:161  0:028  3. [change EHC2 to EH02]: disabled
+30:190  0:029  4. [change _OSI to XOSI]: disabled
+30:222  0:031  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+30:264  0:042  6. [change SAT0 to SATA]: disabled
+30:294  0:029  7. [change LPC to LPCB]: disabled
+30:322  0:027  8. [change _REG to XREG in EC0]: disabled
+30:350  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+30:378  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+30:420  0:042    0 replacements
+30:434  0:014  Patching SSDT Cpu0Ist Length=1367
+30:449  0:014  0. [change APSS to APXX]: disabled
+30:477  0:028  1. [change _DSM to XDSM]: disabled
+30:505  0:027  2. [change EHC1 to EH01]: disabled
+30:533  0:027  3. [change EHC2 to EH02]: disabled
+30:562  0:029  4. [change _OSI to XOSI]: disabled
+30:590  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+30:641  0:051  6. [change SAT0 to SATA]: disabled
+30:680  0:038  7. [change LPC to LPCB]: disabled
+30:710  0:030  8. [change _REG to XREG in EC0]: disabled
+30:739  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+30:767  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+30:809  0:041    0 replacements
+30:824  0:015  Patching SSDT CpuPm Length=2776
+30:838  0:013  0. [change APSS to APXX]: disabled
+30:865  0:027  1. [change _DSM to XDSM]: disabled
+30:893  0:027  2. [change EHC1 to EH01]: disabled
+30:925  0:031  3. [change EHC2 to EH02]: disabled
+30:965  0:040  4. [change _OSI to XOSI]: disabled
+30:996  0:030  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+31:038  0:041  6. [change SAT0 to SATA]: disabled
+31:066  0:027  7. [change LPC to LPCB]: disabled
+31:105  0:039  8. [change _REG to XREG in EC0]: disabled
+31:132  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+31:160  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+31:203  0:043    0 replacements
+31:219  0:015  Found OperationRegion(PPMT, SystemMemory, CB5EEF18, ...)
+31:234  0:015  Patching SSDT SataTabl Length=789
+31:248  0:014  0. [change APSS to APXX]: disabled
+31:293  0:044  1. [change _DSM to XDSM]: disabled
+31:320  0:027  2. [change EHC1 to EH01]: disabled
+31:349  0:029  3. [change EHC2 to EH02]: disabled
+31:377  0:027  4. [change _OSI to XOSI]: disabled
+31:405  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+31:448  0:042  6. [change SAT0 to SATA]: disabled
+31:476  0:028  7. [change LPC to LPCB]: disabled
+31:529  0:052  8. [change _REG to XREG in EC0]: disabled
+31:557  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+31:585  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+31:629  0:043    0 replacements
+31:643  0:014  Patching SSDT SaSsdt  Length=6578
+31:657  0:014  0. [change APSS to APXX]: disabled
+31:685  0:028  1. [change _DSM to XDSM]: disabled
+31:714  0:028  2. [change EHC1 to EH01]: disabled
+31:742  0:028  3. [change EHC2 to EH02]: disabled
+31:770  0:028  4. [change _OSI to XOSI]: disabled
+31:799  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+31:841  0:042  6. [change SAT0 to SATA]: disabled
+31:869  0:028  7. [change LPC to LPCB]: disabled
+31:898  0:029  8. [change _REG to XREG in EC0]: disabled
+31:926  0:027  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+31:955  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+31:998  0:042    0 replacements
+32:016  0:018  Found OperationRegion(SANV, SystemMemory, CB5E1E18, ...)
+32:033  0:016  Found OperationRegion(CCDC, SystemMemory, 80000000, ...)
+32:048  0:015  === [ ACPIPatchedAML ] ====================================
+32:607  0:558  Unsorted
+32:634  0:027  Inserting SSDT-EC.AML from EFI\CLOVER\ACPI\patched: size=63 ... Success
+32:678  0:043  ApicCPUNum=8
+32:692  0:014  Maximum control=0x18
+32:706  0:013  Turbo control=0x22
+32:720  0:014  P-States: min 0x8, max 0x22
+32:734  0:014  SSDT with plugin-type without P-States is generated
+32:748  0:014  Cleanup XSDT: count=17, length=172
+32:763  0:014  corrected XSDT count=17, length=172
+32:777  0:014  === [ RestSetup macOS ] ===================================
+33:334  0:556  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+33:350  0:015     Add key=alc-layout-id valuelen=4
+33:364  0:014  add device: PciRoot(0x0)/Pci(0x2,0x0)
+33:378  0:014     Add key=framebuffer-patch-enable valuelen=4
+33:391  0:013     Add key=framebuffer-cursormem valuelen=4
+33:405  0:013     Add key=device-id valuelen=4
+33:419  0:013     Add key=AAPL,ig-platform-id valuelen=4
+33:433  0:013  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+33:447  0:013    FakeID Intel GFX = 0x04128086
+33:461  0:013    ig-platform-id = 0x0A260006
+33:477  0:015  Intel GFX revision  = 0x6
+33:491  0:014  stringlength = 1384
+33:505  0:014  CurrentMode: Width=3840 Height=2160
+33:520  0:014  Beginning FSInjection
+33:537  0:016  Use origin smbios table type 1 guid.
+33:553  0:016  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+33:567  0:014  Extra kext: EFI\CLOVER\kexts\Other\AtherosE2200Ethernet.kext (v.2.3.0)
+33:593  0:026  Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.1.1)
+33:622  0:028  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.1)
+33:648  0:025  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.1)
+33:671  0:022  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1)
+33:693  0:022  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1)
+33:719  0:025  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+33:774  0:055  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.2.1.1)
+33:806  0:031    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.2.1.1)
+33:847  0:040    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext.dSYM (v.2.1.1)
+33:868  0:021    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.2.1.1)
+33:896  0:028    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext.dSYM (v.2.1.1)
+33:916  0:019    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.2.1.1)
+33:956  0:040    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext.dSYM (v.2.1.1)
+33:980  0:023  Extra kext: EFI\CLOVER\kexts\Other\VoodooInput.kext (v.1.0.2)
+34:013  0:032  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+34:092  0:079  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.3)
+34:122  0:030  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+34:163  0:040  SetStartupDiskVolume:
+34:177  0:013    * Volume: 'macOS Base System'
+34:191  0:014    * LoaderPath: '\System\Library\CoreServices\boot.efi'
+34:205  0:014    * DevPath: macOS Base System
+34:219  0:013    * GUID = <null guid>
+34:233  0:014  Custom boot screen not used because entry has unset use graphics
+34:247  0:014  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2394455264
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 1.3.2020,  21:32:11 (GMT)
+0:100  0:000  Starting Clover revision: 5092 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000) @C9C4B898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 38296523
+0:101  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E2 
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 0C55157E
+0:101  0:000  SmbiosTable.Type17->PartNumber = HMT451S6MFR8A-PB  
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'SATELLITE L50-A-1D5' with board 'VG10S'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=306C3
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000  MSR 0xE2 before patch 1E008405
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00080838_F3011800
+0:101  0:000  corrected FLEX_RATIO = 40000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 24.0/8
+0:101  0:000  Turbo: 32/32/33/34
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2400 MHz
+0:101  0:000  TSC: 2400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80014321)
+0:101  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1292 class=030200
+0:101  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:101  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:101  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:101  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:101  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:101  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:101  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:101  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:101  0:000  PCI (00|03:00.00) : 168C 0036 class=028000
+0:101  0:000   - WIFI: Vendor=Atheros
+0:101  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:101  0:000  PCI (00|04:00.00) : 1969 10A1 class=020000
+0:101  0:000   - LAN: 0 Vendor=Atheros
+0:101  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:101  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:101  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 4 bytes
+0:108  0:006  EFI\CLOVER\config.plist loaded: Success
+0:108  0:000  === [ GetListOfThemes ] ===================================
+0:111  0:002  === [ Found config plists ] ===============================
+0:111  0:000  - config.plist
+0:111  0:000  === [ GetEarlyUserSettings ] ==============================
+0:111  0:000  timeout set to 5
+0:111  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:215  0:104  KextsToPatch: 3 requested
+0:243  0:027   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:299  0:056   - patch disabled at config
+0:314  0:014   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:371  0:056   - patch disabled at config
+0:385  0:014   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:444  0:058   - patch disabled at config
+0:458  0:014  KernelToPatch: 1 requested
+0:472  0:014   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:514  0:042  Default theme: 
+0:528  0:014  ** Warning: unknown custom entry Type 'Other'
+0:542  0:013  === [ LoadDrivers ] =======================================
+1:173  0:630  Loading ApfsDriverLoader.efi  status=Success
+1:325  0:151   - driver needs connecting
+1:339  0:013  Loading FSInject.efi  status=Success
+1:387  0:048  Loading FwRuntimeServices.efi  status=Success
+1:537  0:150  Loading HFSPlus.efi  status=Success
+1:585  0:047   - driver needs connecting
+1:599  0:013  Loading OcQuirks.efi  status=Success
+1:654  0:055  Loading VirtualSmc.efi  status=Success
+1:824  0:170  2 drivers needs connecting ...
+1:838  0:013  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:866  0:027  HFS+ driver loaded
+1:880  0:013  APFS driver loaded
+1:894  0:013  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+2:515  0:621  === [ InitScreen ] ========================================
+3:145  0:629  Console modes reported: 5, available modes:
+3:159  0:014   - [01]: 80x25 (current mode)
+3:173  0:014   - [02]: 80x50
+3:188  0:014   - [03]: 100x31
+3:202  0:014   - [04]: 64x20
+3:216  0:014   - [05]: 102x32
+3:230  0:014  SetScreenResolution: 3840x2160 - already set
+3:259  0:028  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+3:289  0:030  Using embedded font: Success
+3:304  0:015  === [ GetMacAddress ] =====================================
+3:897  0:592  MAC address of LAN #0= 54:BE:F7:81:E5:63:
+4:010  0:113  MAC address of LAN #1= 54:BE:F7:81:E5:63:
+4:123  0:113  MAC address of LAN #2= 54:BE:F7:81:E5:63:
+4:237  0:113  MAC address of LAN #3= 54:BE:F7:81:E5:63:
+4:358  0:120  === [ ScanSPD ] ===========================================
+5:023  0:664  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+5:068  0:045  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E2E2 SerialNo=0308020906050203
+5:107  0:039  Slot: 2 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT451S6MFR8A-PBN0 SerialNo=000C05050105070E
+5:123  0:015  === [ GetAcpiTablesList ] =================================
+5:665  0:542  Get Acpi Tables List from RSDT:
+5:694  0:028   - [00]: FACP  TOSASU00 len=132
+5:708  0:014   - [01]: APIC  TOSASU00 len=146
+5:722  0:013   - [02]: FPDT  TOSASU00 len=68
+5:738  0:015   - [03]: ECDT  TOSASU00 len=193
+5:752  0:013   - [04]: SLIC  TOSASU00 len=374
+5:766  0:013   - [05]: MSDM  TOSASU00 len=85
+5:779  0:013   - [06]: LPIT  TOSASU00 len=92
+5:793  0:014   - [07]: SSDT  sensrhub len=552
+5:810  0:016   - [08]: SSDT  Cpu0Ist len=1367
+5:832  0:021   - [09]: SSDT  CpuPm len=2776
+5:853  0:021   - [10]: MCFG  TOSASU00 len=60
+5:874  0:020   - [11]: HPET  TOSASU00 len=56
+5:893  0:018   - [12]: SSDT  SataTabl len=789
+5:913  0:020   - [13]: SSDT  SaSsdt  len=6578
+5:931  0:018   - [14]: BGRT   len=56
+5:946  0:014  Calibrated TSC Frequency = 2394455264 = 2394MHz
+5:961  0:014  === [ GetUserSettings ] ===================================
+6:531  0:569  Add 2 devices:
+6:546  0:014  Add 3 properties:
+6:560  0:014   - [00]: NVidia Key: name, len: 8
+6:602  0:042   - [01]: NVidia Key: IOName, len: 9
+6:644  0:041   - [02]: NVidia Key: class-code, len: 4
+6:686  0:042  USB FixOwnership: no
+6:701  0:014  Dropping 1 tables:
+6:715  0:014   - [00]: Drop table  signature="DMAR" (52414D44) table-id="Cpu0Ist" (0074734930757043)
+6:968  0:253           - set table: 52414D44,   74734930757043 to drop: no
+7:020  0:051   - final DSDT Fix mask=00060050
+7:034  0:014  PatchesDSDT: 11 requested
+7:049  0:014   - [00]: (change APSS to APXX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:150  0:100    patch disabled at config
+7:165  0:015   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:236  0:070    patch disabled at config
+7:251  0:015   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:332  0:080    patch disabled at config
+7:354  0:022   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:433  0:079    patch disabled at config
+7:447  0:014   - [04]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:518  0:070    patch disabled at config
+7:532  0:014   - [05]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:623  0:090   - [06]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:708  0:084    patch disabled at config
+7:722  0:014   - [07]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:792  0:070    patch disabled at config
+7:806  0:014   - [08]: (change _REG to XREG in EC0) lenToFind: 7, lenToReplace: 7, Target Bridge: <null string>
+7:886  0:080    patch disabled at config
+7:906  0:019   - [09]: (ALS: change Method(RALS,0,S) XALS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:986  0:079    patch disabled at config
+7:999  0:013   - [10]: (change IEC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:068  0:068  Using ProductName from config: MacBookPro11,1
+8:083  0:014  BiosVersion: not set, Using BiosVersion from clover
+8:098  0:014  BiosVersion: MBP111.88Z.F000.B00.1907241312
+8:113  0:015  BiosReleaseDate: 07/24/2019
+8:128  0:014  Using EfiVersion from clover: 157.0.0.0.0
+8:158  0:029  Using FirmwareFeatures from clover: 0xE80FE137
+8:172  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+8:186  0:014  Using PlatformFeature from clover: 0x2
+8:204  0:018  === [ Found DSDT tables ] =================================
+8:920  0:716  === [ ScanVolumes ] =======================================
+9:510  0:589  Found 11 volumes with blockIO
+9:524  0:013  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)
+9:553  0:029          Result of bootcode detection: bootable unknown (legacy)
+9:568  0:015          USB volume
+9:583  0:014          USB volume
+9:604  0:021  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+9:652  0:047          Result of bootcode detection: bootable unknown (legacy)
+9:670  0:018          USB volume
+9:686  0:016          USB volume
+9:705  0:018          This is SelfVolume !!
+9:719  0:013  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+9:751  0:031          USB volume
+9:764  0:013          USB volume
+9:778  0:014  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+9:825  0:046  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+9:855  0:030          Found optical drive
+9:877  0:021  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,C85106FB-B550-431F-95EB-62E0556752F3,0x28,0x64000)
+9:917  0:040          Result of bootcode detection: bootable unknown (legacy)
+9:945  0:027  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)
+9:981  0:035          Result of bootcode detection: bootable unknown (legacy)
+9:995  0:014  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+10:023  0:028  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7E0AF6788C510E4A8D5FF7DD387F2A0B)
+10:066  0:042  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D48A3728C2768549BD3E40DC9C35BBD8)
+10:095  0:028  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E53ECCFBC341864BB3735BA1B30B80D6)
+10:139  0:044  No AudioIoProtocols, status=Not Found
+10:160  0:020  === [ InitTheme ] =========================================
+10:831  0:670  use night theme
+10:845  0:014   using embedded theme
+10:859  0:014  got embedded sound
+10:874  0:014    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+10:888  0:014  output to channel 0 with volume 70, len=25600
+10:902  0:014   sound channels=2 bits=16 freq=8000
+10:918  0:016  sound converted to 48kHz
+10:932  0:014  not found AudioIo to play
+10:946  0:014  sound play end with status=Not Found
+10:962  0:015  Using embedded font: Success
+10:977  0:015  theme inited
+10:991  0:014  Chosen embedded theme
+11:005  0:014  after NVRAM boot-args=-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check
+11:019  0:014  === [ Dump SMC keys from NVRAM ] ==========================
+11:469  0:450  found AppleSMC protocol
+11:490  0:020  === [ AddCustomEntries ] ==================================
+12:061  0:570  Custom entry 0 skipped because it is disabled.
+12:075  0:014  === [ ScanLoader ] ========================================
+12:723  0:648  - [01]: 'BOOT'
+12:766  0:042          AddLoaderEntry for Volume Name=BOOT
+12:785  0:018          skipped because entry is hidden
+12:802  0:017  - [02]: 'macOS Base System'
+12:846  0:043          AddLoaderEntry for Volume Name=macOS Base System
+12:860  0:014      Not match custom entry 0: Type: not match
+12:925  0:064  - [05]: 'EFI'
+12:953  0:027  - [07]: 'Preboot'
+13:005  0:052          AddLoaderEntry for Volume Name=Preboot
+13:023  0:018      Not match custom entry 0: Type: not match
+13:098  0:075  - [08]: 'macOS'
+13:134  0:035          AddLoaderEntry for Volume Name=macOS
+13:148  0:014      Not match custom entry 0: Type: not match
+13:216  0:067  - [09]: 'Recovery'
+13:245  0:028  - [10]: 'VM'
+13:273  0:028  Scanning legacy ...
+13:288  0:014  === [ AddCustomTool ] =====================================
+13:892  0:604  found tool \EFI\CLOVER\tools\Shell64U.efi
+13:906  0:014  Checking EFI partition Volume 5 for Clover
+13:930  0:023  === [ GetEfiBootDeviceFromNvram ] =========================
+14:354  0:424   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efii
+14:368  0:014    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)'
+14:384  0:015    - LoaderPath: '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:398  0:013    - Guid = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+14:412  0:014  === [ FindStartupDiskVolume ] =============================
+14:899  0:487    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+14:915  0:015     - searching for that partition and loader '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:929  0:014      - found entry 1. 'Boot macOS Install Prebooter from Preboot', Volume 'Preboot', '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:948  0:019  Boot redirected to Entry 1. 'Boot macOS Install Prebooter from Preboot'
+14:986  0:037  DefaultIndex=1 and MainMenu.EntryCount=8
+15:483  0:496  GUI ready
+21:552  6:068  exit from MainMenu 4
+21:570  0:017  === [ StartLoader ] =======================================
+22:187  0:616  Finally: ExternalClock=25MHz BusSpeed=99769kHz CPUFreq=2394MHz PIS: hw.busfrequency=100000000Hz
+22:216  0:028  Loading boot.efi  status=Success
+22:623  0:407  GetOSVersion: 10.15.3 (19D76)
+22:659  0:036  Filtering KextPatches:
+22:679  0:020   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:715  0:035   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:747  0:032   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:777  0:030  Filtering KernelPatches:
+22:791  0:014   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+24:820  2:028  Will not patch boot.efi
+24:834  0:014  === [ PatchSmbios ] =======================================
+25:437  0:603  insert table 9 for dev 0:0
+25:452  0:014  insert table 9 for dev 0:0
+25:466  0:014  Table 11 present, but rewritten for us
+25:483  0:017  Trusting SMBIOS...
+25:498  0:014  Detected alternating SMBIOS channel banks
+25:512  0:014  Channels: 2
+25:526  0:014  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+25:946  0:420   partNum=8KTF51264HZ-1G6E2 
+25:963  0:016  SMBIOS Type 17 Index = 0 => 0 0:
+25:978  0:015  BANK 0 DIMM0 1600MHz 4096MB
+25:992  0:014   partNum=HMT451S6MFR8A-PB  
+26:007  0:014  SMBIOS Type 17 Index = 1 => 1 2:
+26:021  0:014  BANK 1 DIMM0 1600MHz 4096MB
+26:035  0:014  mTotalSystemMemory = 8192
+26:062  0:027  NumberOfMemoryDevices = 2
+26:076  0:014  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+26:090  0:014  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+26:104  0:014  Table 131 is present, CPUType=10
+26:119  0:014  Change to: 705
+26:133  0:014  === [ PatchACPI ] =========================================
+26:820  0:687  Xsdt reallocation done
+26:834  0:014  old FADT length=10C
+26:850  0:015   SignatureFixup: 0xD366EE16 -> 0x0
+26:869  0:019  Apply DsdtFixMask=0x00060050
+26:885  0:015     drop _DSM mask=0x0000
+26:899  0:014  === [ FixBiosDsdt ] =======================================
+27:535  0:636  Patching DSDT:
+27:549  0:014   - [change APSS to APXX]: disabled
+27:578  0:028   - [change _DSM to XDSM]: disabled
+27:607  0:028   - [change EHC1 to EH01]: disabled
+27:647  0:040   - [change EHC2 to EH02]: disabled
+27:688  0:041   - [change _OSI to XOSI]: disabled
+27:723  0:034   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+27:766  0:043   - [change SAT0 to SATA]: disabled
+27:796  0:029   - [change LPC to LPCB]: disabled
+27:824  0:028   - [change _REG to XREG in EC0]: disabled
+27:852  0:028   - [ALS: change Method(RALS,0,S) XALS]: disabled
+27:881  0:028   - [change IEC to EC]: pattern 4945435F, patched at: [ (51A7) (552) (E5) (51FF) (1DA7) (20) (53) (22F) (15) (15) (22) (F) (F) (15) (F) (64) (CF) (AA) (15) (28) (19) (F) (F) (F) (5B) (50) (33B) (3E) (61) (62) (19D) (36E) (13) (13) (47) (13) (13) (4C) (13) (13) (154) (40) (8E) (13) (13) (84) (28) (35) (477) (14A) (17E) (86A) (17) (146A) (F09) (1A3) (14) (3C) (14) (31) (14) (29) (2B) (14) (63) (1DCC) (178E) (281) (23) (804) (D4) (27) (6F5) (83) (C3E) (17C) (10A) (443) (1D6) (1E) (2D) (39) (9F) (14) (1A) (1B) (4A) (1B) (21) (1B) (29) (1B) (21) (1B) (2D) (1B) (21) (1B) (29) (1B) (27) (1B) (21) (1B) (26) (1B) (58) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (F7) (10) (10) (28) (14) (15) (14) (CC) (21) (3D) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (FA) (10) (10) (2E3) (19) (28) (14) (17) (24E) (1B) (D1) (1B) (12A) (2A) (22) (1E) (D5) (1E) (17E) (1B) (34) (1B) (F3) (2DF) (17) (230) (15) (275) (4A) (231) (63) (7C) (7E) (14) (ADF) (6F) (1D) (1F) (9B) (14) (2E) (14) (17E) (37) (37) (177) (1C) (E2F) (16) (119) (18) (21) (15) (55) (23) (7D) (19) (15) (2A) (F9) (2C) (278) (4C) (2C) (20F) (25) (1A) (17) (64) (6D) (65) (7B) (11) (84) (95) (43) (4C) (10) (10) (15) (14) (1E) (10) (10) (16) (14) (170A) (3E) (29) (1F) (1C) (2D) (20) (2E) (1F) (26) (15) (2A) (26) (3F) (35) (37) (936) (2AC) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (13) (3C) (17) (13) (18) (18) (13) (13) (17) (31) (7C) (1F) (23) (2D) (49) (18) (13) (13) (21) (49) (BA) (12B) ]
+32:441  4:560    0 replacements
+32:457  0:016  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+32:471  0:014  found RTC had IRQNoFlag will move -3 bytes
+32:486  0:014  found PIC had IRQNoFlag will move -3 bytes
+32:500  0:014  Start HPET Fix
+32:515  0:015  PreCleanup XSDT: count=15, length=156
+32:531  0:015  PreCleanup XSDT, corrected XSDT: count=15, length=156
+32:545  0:014  === [ ACPIDropTables ] ====================================
+33:142  0:597  Patching SSDT sensrhub Length=552
+33:162  0:019  0. [change APSS to APXX]: disabled
+33:204  0:042  1. [change _DSM to XDSM]: disabled
+33:238  0:034  2. [change EHC1 to EH01]: disabled
+33:267  0:029  3. [change EHC2 to EH02]: disabled
+33:296  0:028  4. [change _OSI to XOSI]: disabled
+33:324  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+33:369  0:044  6. [change SAT0 to SATA]: disabled
+33:397  0:028  7. [change LPC to LPCB]: disabled
+33:434  0:036  8. [change _REG to XREG in EC0]: disabled
+33:473  0:038  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+33:502  0:029  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+33:545  0:042    0 replacements
+33:559  0:014  Patching SSDT Cpu0Ist Length=1367
+33:573  0:013  0. [change APSS to APXX]: disabled
+33:601  0:028  1. [change _DSM to XDSM]: disabled
+33:648  0:046  2. [change EHC1 to EH01]: disabled
+33:687  0:039  3. [change EHC2 to EH02]: disabled
+33:720  0:032  4. [change _OSI to XOSI]: disabled
+33:749  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+33:791  0:042  6. [change SAT0 to SATA]: disabled
+33:819  0:028  7. [change LPC to LPCB]: disabled
+33:848  0:028  8. [change _REG to XREG in EC0]: disabled
+33:885  0:037  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+33:934  0:048  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+33:995  0:061    0 replacements
+34:014  0:019  Patching SSDT CpuPm Length=2776
+34:031  0:017  0. [change APSS to APXX]: disabled
+34:062  0:030  1. [change _DSM to XDSM]: disabled
+34:090  0:028  2. [change EHC1 to EH01]: disabled
+34:136  0:045  3. [change EHC2 to EH02]: disabled
+34:164  0:028  4. [change _OSI to XOSI]: disabled
+34:193  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+34:240  0:046  6. [change SAT0 to SATA]: disabled
+34:276  0:036  7. [change LPC to LPCB]: disabled
+34:316  0:040  8. [change _REG to XREG in EC0]: disabled
+34:371  0:055  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+34:399  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+34:442  0:042    0 replacements
+34:456  0:014  Found OperationRegion(PPMT, SystemMemory, CB5EEF18, ...)
+34:470  0:014  Patching SSDT SataTabl Length=789
+34:485  0:014  0. [change APSS to APXX]: disabled
+34:515  0:030  1. [change _DSM to XDSM]: disabled
+34:543  0:028  2. [change EHC1 to EH01]: disabled
+34:574  0:030  3. [change EHC2 to EH02]: disabled
+34:605  0:031  4. [change _OSI to XOSI]: disabled
+34:644  0:038  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+34:692  0:047  6. [change SAT0 to SATA]: disabled
+34:720  0:028  7. [change LPC to LPCB]: disabled
+34:748  0:028  8. [change _REG to XREG in EC0]: disabled
+34:776  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+34:818  0:041  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+34:875  0:057    0 replacements
+34:896  0:020  Patching SSDT SaSsdt  Length=6578
+34:916  0:020  0. [change APSS to APXX]: disabled
+34:949  0:032  1. [change _DSM to XDSM]: disabled
+34:980  0:030  2. [change EHC1 to EH01]: disabled
+35:009  0:028  3. [change EHC2 to EH02]: disabled
+35:037  0:028  4. [change _OSI to XOSI]: disabled
+35:065  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+35:110  0:044  6. [change SAT0 to SATA]: disabled
+35:138  0:028  7. [change LPC to LPCB]: disabled
+35:166  0:028  8. [change _REG to XREG in EC0]: disabled
+35:195  0:029  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+35:237  0:041  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+35:291  0:054    0 replacements
+35:307  0:015  Found OperationRegion(SANV, SystemMemory, CB5E1E18, ...)
+35:322  0:015  Found OperationRegion(CCDC, SystemMemory, 80000000, ...)
+35:339  0:016  === [ ACPIPatchedAML ] ====================================
+35:962  0:623  Unsorted
+35:976  0:014  Inserting SSDT-EC.AML from EFI\CLOVER\ACPI\patched: size=63 ... Success
+36:021  0:044  ApicCPUNum=8
+36:035  0:014  Maximum control=0x18
+36:049  0:014  Turbo control=0x22
+36:063  0:014  P-States: min 0x8, max 0x22
+36:078  0:014  SSDT with plugin-type without P-States is generated
+36:092  0:014  Cleanup XSDT: count=17, length=172
+36:106  0:014  corrected XSDT count=17, length=172
+36:122  0:015  === [ RestSetup macOS ] ===================================
+36:692  0:570  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+36:706  0:013     Add key=alc-layout-id valuelen=4
+36:720  0:013  add device: PciRoot(0x0)/Pci(0x2,0x0)
+36:734  0:013     Add key=framebuffer-patch-enable valuelen=4
+36:747  0:013     Add key=framebuffer-cursormem valuelen=4
+36:761  0:013     Add key=device-id valuelen=4
+36:775  0:013     Add key=AAPL,ig-platform-id valuelen=4
+36:789  0:013  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+36:818  0:028    FakeID Intel GFX = 0x04128086
+36:840  0:022    ig-platform-id = 0x0A260006
+36:859  0:018  Intel GFX revision  = 0x6
+36:875  0:016  stringlength = 1384
+36:891  0:015  CurrentMode: Width=3840 Height=2160
+36:906  0:014  Beginning FSInjection
+36:922  0:016  Use origin smbios table type 1 guid.
+36:937  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+36:951  0:013  Extra kext: EFI\CLOVER\kexts\Other\AtherosE2200Ethernet.kext (v.2.3.0)
+36:978  0:026  Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.1.1)
+37:006  0:027  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.1)
+37:040  0:034  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.1)
+37:088  0:048  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1)
+37:133  0:044  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1)
+37:169  0:035  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+37:228  0:059  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.2.1.1)
+37:261  0:033    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.2.1.1)
+37:288  0:027    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext.dSYM (v.2.1.1)
+37:310  0:022    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.2.1.1)
+37:365  0:054    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext.dSYM (v.2.1.1)
+37:401  0:036    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.2.1.1)
+37:440  0:039    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext.dSYM (v.2.1.1)
+37:460  0:020  Extra kext: EFI\CLOVER\kexts\Other\VoodooInput.kext (v.1.0.2)
+37:491  0:031  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+37:643  0:151  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.3)
+37:691  0:047  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+37:752  0:061  SetStartupDiskVolume:
+37:767  0:014    * Volume: 'Preboot'
+37:781  0:014    * LoaderPath: '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+37:796  0:014    * DevPath: Preboot
+37:810  0:014    * GUID = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+37:827  0:016    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>379AA682-9010-4D68-9245-4EBBFE6DA87C</string></dict></dict></dict></array>
+37:845  0:018  Custom boot screen not used because entry has unset use graphics
+37:859  0:014  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2394451825
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 1.3.2020,  21:41:5 (GMT)
+0:100  0:000  Starting Clover revision: 5092 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000) @C9C4B898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 38296523
+0:101  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E2 
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 0C55157E
+0:101  0:000  SmbiosTable.Type17->PartNumber = HMT451S6MFR8A-PB  
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'SATELLITE L50-A-1D5' with board 'VG10S'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=306C3
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000  MSR 0xE2 before patch 1E008405
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00080838_F3011800
+0:101  0:000  corrected FLEX_RATIO = 40000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 24.0/8
+0:101  0:000  Turbo: 32/32/33/34
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2400 MHz
+0:101  0:000  TSC: 2400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80014321)
+0:101  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1292 class=030200
+0:101  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:101  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:101  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:101  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:101  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:101  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:101  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:101  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:101  0:000  PCI (00|03:00.00) : 168C 0036 class=028000
+0:101  0:000   - WIFI: Vendor=Atheros
+0:101  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:101  0:000  PCI (00|04:00.00) : 1969 10A1 class=020000
+0:101  0:000   - LAN: 0 Vendor=Atheros
+0:101  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:101  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:101  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 4 bytes
+0:108  0:006  EFI\CLOVER\config.plist loaded: Success
+0:108  0:000  === [ GetListOfThemes ] ===================================
+0:110  0:002  === [ Found config plists ] ===============================
+0:110  0:000  - config.plist
+0:110  0:000  === [ GetEarlyUserSettings ] ==============================
+0:110  0:000  timeout set to 5
+0:110  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:218  0:107  KextsToPatch: 3 requested
+0:232  0:014   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:289  0:057   - patch disabled at config
+0:305  0:015   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:360  0:055   - patch disabled at config
+0:374  0:013   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:429  0:055   - patch disabled at config
+0:444  0:014  KernelToPatch: 1 requested
+0:465  0:021   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:537  0:071  Default theme: 
+0:551  0:014  ** Warning: unknown custom entry Type 'Other'
+0:565  0:014  === [ LoadDrivers ] =======================================
+1:139  0:574  Loading ApfsDriverLoader.efi  status=Success
+1:304  0:165   - driver needs connecting
+1:318  0:013  Loading FSInject.efi  status=Success
+1:364  0:046  Loading FwRuntimeServices.efi  status=Success
+1:511  0:146  Loading HFSPlus.efi  status=Success
+1:558  0:047   - driver needs connecting
+1:572  0:013  Loading OcQuirks.efi  status=Success
+1:623  0:050  Loading VirtualSmc.efi  status=Success
+1:770  0:147  2 drivers needs connecting ...
+1:784  0:014  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:812  0:028  HFS+ driver loaded
+1:826  0:014  APFS driver loaded
+1:840  0:014  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+2:504  0:663  === [ InitScreen ] ========================================
+3:099  0:594  Console modes reported: 5, available modes:
+3:114  0:015   - [01]: 80x25 (current mode)
+3:129  0:014   - [02]: 80x50
+3:143  0:014   - [03]: 100x31
+3:157  0:014   - [04]: 64x20
+3:171  0:014   - [05]: 102x32
+3:185  0:014  SetScreenResolution: 3840x2160 - already set
+3:214  0:028  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+3:230  0:016  Using embedded font: Success
+3:246  0:015  === [ GetMacAddress ] =====================================
+3:841  0:594  MAC address of LAN #0= 54:BE:F7:81:E5:63:
+3:953  0:112  MAC address of LAN #1= 54:BE:F7:81:E5:63:
+4:068  0:114  MAC address of LAN #2= 54:BE:F7:81:E5:63:
+4:181  0:113  MAC address of LAN #3= 54:BE:F7:81:E5:63:
+4:323  0:141  === [ ScanSPD ] ===========================================
+4:997  0:674  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+5:031  0:033  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E2E2 SerialNo=0308020906050203
+5:090  0:059  Slot: 2 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT451S6MFR8A-PBN0 SerialNo=000C05050105070E
+5:108  0:018  === [ GetAcpiTablesList ] =================================
+5:618  0:509  Get Acpi Tables List from RSDT:
+5:655  0:036   - [00]: FACP  TOSASU00 len=132
+5:676  0:021   - [01]: APIC  TOSASU00 len=146
+5:696  0:019   - [02]: FPDT  TOSASU00 len=68
+5:713  0:016   - [03]: ECDT  TOSASU00 len=193
+5:728  0:015   - [04]: SLIC  TOSASU00 len=374
+5:743  0:014   - [05]: MSDM  TOSASU00 len=85
+5:759  0:015   - [06]: LPIT  TOSASU00 len=92
+5:773  0:014   - [07]: SSDT  sensrhub len=552
+5:787  0:014   - [08]: SSDT  Cpu0Ist len=1367
+5:801  0:014   - [09]: SSDT  CpuPm len=2776
+5:815  0:014   - [10]: MCFG  TOSASU00 len=60
+5:829  0:014   - [11]: HPET  TOSASU00 len=56
+5:843  0:014   - [12]: SSDT  SataTabl len=789
+5:857  0:014   - [13]: SSDT  SaSsdt  len=6578
+5:871  0:014   - [14]: BGRT   len=56
+5:886  0:014  Calibrated TSC Frequency = 2394451825 = 2394MHz
+5:900  0:014  === [ GetUserSettings ] ===================================
+6:473  0:572  Add 2 devices:
+6:489  0:016  Add 3 properties:
+6:509  0:020   - [00]: NVidia Key: name, len: 8
+6:564  0:054   - [01]: NVidia Key: IOName, len: 9
+6:608  0:044   - [02]: NVidia Key: class-code, len: 4
+6:650  0:042  USB FixOwnership: no
+6:665  0:014  Dropping 1 tables:
+6:679  0:013   - [00]: Drop table  signature="DMAR" (52414D44) table-id="Cpu0Ist" (0074734930757043)
+6:944  0:265           - set table: 52414D44,   74734930757043 to drop: no
+6:999  0:054   - final DSDT Fix mask=00060050
+7:013  0:014  PatchesDSDT: 11 requested
+7:027  0:014   - [00]: (change APSS to APXX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:097  0:070    patch disabled at config
+7:111  0:014   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:212  0:100    patch disabled at config
+7:228  0:016   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:301  0:072    patch disabled at config
+7:328  0:027   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:398  0:070    patch disabled at config
+7:412  0:014   - [04]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:483  0:071    patch disabled at config
+7:497  0:014   - [05]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:568  0:070   - [06]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:641  0:072    patch disabled at config
+7:655  0:014   - [07]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:726  0:070    patch disabled at config
+7:741  0:015   - [08]: (change _REG to XREG in EC0) lenToFind: 7, lenToReplace: 7, Target Bridge: <null string>
+7:812  0:071    patch disabled at config
+7:826  0:014   - [09]: (ALS: change Method(RALS,0,S) XALS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:897  0:070    patch disabled at config
+7:913  0:015   - [10]: (change IEC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:005  0:092  Using ProductName from config: MacBookPro11,1
+8:023  0:017  BiosVersion: not set, Using BiosVersion from clover
+8:038  0:015  BiosVersion: MBP111.88Z.F000.B00.1907241312
+8:053  0:014  BiosReleaseDate: 07/24/2019
+8:067  0:014  Using EfiVersion from clover: 157.0.0.0.0
+8:081  0:014  Using FirmwareFeatures from clover: 0xE80FE137
+8:095  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+8:111  0:015  Using PlatformFeature from clover: 0x2
+8:129  0:018  === [ Found DSDT tables ] =================================
+8:818  0:688  === [ ScanVolumes ] =======================================
+9:469  0:651  Found 11 volumes with blockIO
+9:484  0:014  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)
+9:514  0:030          Result of bootcode detection: bootable unknown (legacy)
+9:528  0:013          USB volume
+9:542  0:014          USB volume
+9:556  0:013  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+9:601  0:045          Result of bootcode detection: bootable unknown (legacy)
+9:615  0:013          USB volume
+9:629  0:014          USB volume
+9:647  0:018          This is SelfVolume !!
+9:668  0:020  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+9:713  0:045          USB volume
+9:732  0:018          USB volume
+9:748  0:016  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+9:800  0:052  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+9:828  0:028          Found optical drive
+9:843  0:014  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,C85106FB-B550-431F-95EB-62E0556752F3,0x28,0x64000)
+9:871  0:028          Result of bootcode detection: bootable unknown (legacy)
+9:894  0:022  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)
+9:935  0:041          Result of bootcode detection: bootable unknown (legacy)
+9:956  0:021  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+9:999  0:042  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7E0AF6788C510E4A8D5FF7DD387F2A0B)
+10:040  0:040  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D48A3728C2768549BD3E40DC9C35BBD8)
+10:070  0:029  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E53ECCFBC341864BB3735BA1B30B80D6)
+10:099  0:028  No AudioIoProtocols, status=Not Found
+10:126  0:027  === [ InitTheme ] =========================================
+10:736  0:610  use night theme
+10:750  0:014   using embedded theme
+10:765  0:014  got embedded sound
+10:779  0:014    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+10:793  0:014  output to channel 0 with volume 70, len=25600
+10:807  0:014   sound channels=2 bits=16 freq=8000
+10:822  0:014  sound converted to 48kHz
+10:836  0:014  not found AudioIo to play
+10:851  0:014  sound play end with status=Not Found
+10:875  0:024  Using embedded font: Success
+10:900  0:024  theme inited
+10:918  0:018  Chosen embedded theme
+10:934  0:015  after NVRAM boot-args=-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check
+10:949  0:014  === [ Dump SMC keys from NVRAM ] ==========================
+11:385  0:435  found AppleSMC protocol
+11:405  0:020  === [ AddCustomEntries ] ==================================
+11:963  0:557  Custom entry 0 skipped because it is disabled.
+11:977  0:014  === [ ScanLoader ] ========================================
+12:605  0:627  - [01]: 'BOOT'
+12:647  0:042          AddLoaderEntry for Volume Name=BOOT
+12:663  0:016          skipped because entry is hidden
+12:679  0:015  - [02]: 'macOS Base System'
+12:719  0:040          AddLoaderEntry for Volume Name=macOS Base System
+12:734  0:014      Not match custom entry 0: Type: not match
+12:785  0:051  - [05]: 'EFI'
+12:813  0:028  - [07]: 'Preboot'
+12:881  0:067          AddLoaderEntry for Volume Name=Preboot
+12:899  0:018      Not match custom entry 0: Type: not match
+12:960  0:060  - [08]: 'macOS'
+13:012  0:052          AddLoaderEntry for Volume Name=macOS
+13:027  0:014      Not match custom entry 0: Type: not match
+13:084  0:057  - [09]: 'Recovery'
+13:139  0:054  - [10]: 'VM'
+13:168  0:029  Scanning legacy ...
+13:183  0:014  === [ AddCustomTool ] =====================================
+13:793  0:610  found tool \EFI\CLOVER\tools\Shell64U.efi
+13:807  0:014  Checking EFI partition Volume 5 for Clover
+13:858  0:050  === [ GetEfiBootDeviceFromNvram ] =========================
+14:263  0:405   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efii
+14:278  0:014    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)'
+14:294  0:016    - LoaderPath: '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:308  0:014    - Guid = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+14:323  0:014  === [ FindStartupDiskVolume ] =============================
+14:763  0:440    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+14:779  0:015     - searching for that partition and loader '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:793  0:014      - found entry 1. 'Boot macOS Install Prebooter from Preboot', Volume 'Preboot', '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+14:807  0:014  Boot redirected to Entry 1. 'Boot macOS Install Prebooter from Preboot'
+14:822  0:014  DefaultIndex=1 and MainMenu.EntryCount=8
+15:222  0:400  GUI ready
+21:285  6:063  exit from MainMenu 4
+21:299  0:014  === [ StartLoader ] =======================================
+21:916  0:616  Finally: ExternalClock=25MHz BusSpeed=99769kHz CPUFreq=2394MHz PIS: hw.busfrequency=100000000Hz
+21:952  0:035  Loading boot.efi  status=Success
+22:335  0:383  GetOSVersion: 10.15.3 (19D76)
+22:363  0:028  Filtering KextPatches:
+22:377  0:014   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:419  0:041   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:454  0:035   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+22:493  0:038  Filtering KernelPatches:
+22:511  0:017   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+24:539  2:028  Will not patch boot.efi
+24:554  0:014  === [ PatchSmbios ] =======================================
+25:177  0:623  insert table 9 for dev 0:0
+25:193  0:015  insert table 9 for dev 0:0
+25:214  0:021  Table 11 present, but rewritten for us
+25:236  0:022  Trusting SMBIOS...
+25:253  0:016  Detected alternating SMBIOS channel banks
+25:268  0:015  Channels: 2
+25:284  0:016  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+25:681  0:397   partNum=8KTF51264HZ-1G6E2 
+25:695  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+25:715  0:019  BANK 0 DIMM0 1600MHz 4096MB
+25:737  0:022   partNum=HMT451S6MFR8A-PB  
+25:758  0:021  SMBIOS Type 17 Index = 1 => 1 2:
+25:778  0:019  BANK 1 DIMM0 1600MHz 4096MB
+25:797  0:018  mTotalSystemMemory = 8192
+25:814  0:017  NumberOfMemoryDevices = 2
+25:829  0:015  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+25:846  0:016  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+25:860  0:014  Table 131 is present, CPUType=10
+25:874  0:014  Change to: 705
+25:889  0:014  === [ PatchACPI ] =========================================
+26:542  0:653  Xsdt reallocation done
+26:558  0:016  old FADT length=10C
+26:573  0:015   SignatureFixup: 0xD366EE16 -> 0x0
+26:594  0:020  Apply DsdtFixMask=0x00060050
+26:608  0:013     drop _DSM mask=0x0000
+26:622  0:014  === [ FixBiosDsdt ] =======================================
+27:268  0:646  Patching DSDT:
+27:282  0:014   - [change APSS to APXX]: disabled
+27:314  0:031   - [change _DSM to XDSM]: disabled
+27:349  0:034   - [change EHC1 to EH01]: disabled
+27:379  0:030   - [change EHC2 to EH02]: disabled
+27:407  0:028   - [change _OSI to XOSI]: disabled
+27:435  0:028   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+27:478  0:042   - [change SAT0 to SATA]: disabled
+27:506  0:028   - [change LPC to LPCB]: disabled
+27:534  0:028   - [change _REG to XREG in EC0]: disabled
+27:564  0:029   - [ALS: change Method(RALS,0,S) XALS]: disabled
+27:593  0:028   - [change IEC to EC]: pattern 4945435F, patched at: [ (51A7) (552) (E5) (51FF) (1DA7) (20) (53) (22F) (15) (15) (22) (F) (F) (15) (F) (64) (CF) (AA) (15) (28) (19) (F) (F) (F) (5B) (50) (33B) (3E) (61) (62) (19D) (36E) (13) (13) (47) (13) (13) (4C) (13) (13) (154) (40) (8E) (13) (13) (84) (28) (35) (477) (14A) (17E) (86A) (17) (146A) (F09) (1A3) (14) (3C) (14) (31) (14) (29) (2B) (14) (63) (1DCC) (178E) (281) (23) (804) (D4) (27) (6F5) (83) (C3E) (17C) (10A) (443) (1D6) (1E) (2D) (39) (9F) (14) (1A) (1B) (4A) (1B) (21) (1B) (29) (1B) (21) (1B) (2D) (1B) (21) (1B) (29) (1B) (27) (1B) (21) (1B) (26) (1B) (58) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (F7) (10) (10) (28) (14) (15) (14) (CC) (21) (3D) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (FA) (10) (10) (2E3) (19) (28) (14) (17) (24E) (1B) (D1) (1B) (12A) (2A) (22) (1E) (D5) (1E) (17E) (1B) (34) (1B) (F3) (2DF) (17) (230) (15) (275) (4A) (231) (63) (7C) (7E) (14) (ADF) (6F) (1D) (1F) (9B) (14) (2E) (14) (17E) (37) (37) (177) (1C) (E2F) (16) (119) (18) (21) (15) (55) (23) (7D) (19) (15) (2A) (F9) (2C) (278) (4C) (2C) (20F) (25) (1A) (17) (64) (6D) (65) (7B) (11) (84) (95) (43) (4C) (10) (10) (15) (14) (1E) (10) (10) (16) (14) (170A) (3E) (29) (1F) (1C) (2D) (20) (2E) (1F) (26) (15) (2A) (26) (3F) (35) (37) (936) (2AC) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (13) (3C) (17) (13) (18) (18) (13) (13) (17) (31) (7C) (1F) (23) (2D) (49) (18) (13) (13) (21) (49) (BA) (12B) ]
+32:016  4:423    0 replacements
+32:031  0:014  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+32:045  0:013  found RTC had IRQNoFlag will move -3 bytes
+32:059  0:014  found PIC had IRQNoFlag will move -3 bytes
+32:074  0:015  Start HPET Fix
+32:102  0:028  PreCleanup XSDT: count=15, length=156
+32:124  0:021  PreCleanup XSDT, corrected XSDT: count=15, length=156
+32:145  0:020  === [ ACPIDropTables ] ====================================
+32:741  0:595  Patching SSDT sensrhub Length=552
+32:755  0:014  0. [change APSS to APXX]: disabled
+32:783  0:028  1. [change _DSM to XDSM]: disabled
+32:811  0:028  2. [change EHC1 to EH01]: disabled
+32:839  0:028  3. [change EHC2 to EH02]: disabled
+32:871  0:031  4. [change _OSI to XOSI]: disabled
+32:914  0:043  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+32:971  0:056  6. [change SAT0 to SATA]: disabled
+33:003  0:031  7. [change LPC to LPCB]: disabled
+33:033  0:030  8. [change _REG to XREG in EC0]: disabled
+33:061  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+33:089  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+33:132  0:042    0 replacements
+33:149  0:017  Patching SSDT Cpu0Ist Length=1367
+33:169  0:019  0. [change APSS to APXX]: disabled
+33:210  0:040  1. [change _DSM to XDSM]: disabled
+33:245  0:035  2. [change EHC1 to EH01]: disabled
+33:275  0:029  3. [change EHC2 to EH02]: disabled
+33:305  0:030  4. [change _OSI to XOSI]: disabled
+33:333  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+33:376  0:042  6. [change SAT0 to SATA]: disabled
+33:404  0:028  7. [change LPC to LPCB]: disabled
+33:432  0:028  8. [change _REG to XREG in EC0]: disabled
+33:460  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+33:491  0:030  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+33:550  0:058    0 replacements
+33:579  0:029  Patching SSDT CpuPm Length=2776
+33:595  0:015  0. [change APSS to APXX]: disabled
+33:624  0:029  1. [change _DSM to XDSM]: disabled
+33:652  0:028  2. [change EHC1 to EH01]: disabled
+33:697  0:045  3. [change EHC2 to EH02]: disabled
+33:726  0:028  4. [change _OSI to XOSI]: disabled
+33:763  0:037  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+33:820  0:056  6. [change SAT0 to SATA]: disabled
+33:851  0:030  7. [change LPC to LPCB]: disabled
+33:879  0:028  8. [change _REG to XREG in EC0]: disabled
+33:934  0:054  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+33:962  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+34:013  0:051    0 replacements
+34:034  0:021  Found OperationRegion(PPMT, SystemMemory, CB5EEF18, ...)
+34:055  0:020  Patching SSDT SataTabl Length=789
+34:075  0:020  0. [change APSS to APXX]: disabled
+34:109  0:033  1. [change _DSM to XDSM]: disabled
+34:138  0:029  2. [change EHC1 to EH01]: disabled
+34:168  0:030  3. [change EHC2 to EH02]: disabled
+34:196  0:027  4. [change _OSI to XOSI]: disabled
+34:224  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+34:266  0:042  6. [change SAT0 to SATA]: disabled
+34:295  0:028  7. [change LPC to LPCB]: disabled
+34:325  0:030  8. [change _REG to XREG in EC0]: disabled
+34:354  0:029  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+34:383  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+34:427  0:044    0 replacements
+34:441  0:014  Patching SSDT SaSsdt  Length=6578
+34:455  0:014  0. [change APSS to APXX]: disabled
+34:484  0:028  1. [change _DSM to XDSM]: disabled
+34:512  0:028  2. [change EHC1 to EH01]: disabled
+34:540  0:028  3. [change EHC2 to EH02]: disabled
+34:585  0:044  4. [change _OSI to XOSI]: disabled
+34:621  0:036  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+34:667  0:045  6. [change SAT0 to SATA]: disabled
+34:696  0:028  7. [change LPC to LPCB]: disabled
+34:738  0:042  8. [change _REG to XREG in EC0]: disabled
+34:766  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+34:794  0:028  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+34:847  0:053    0 replacements
+34:869  0:021  Found OperationRegion(SANV, SystemMemory, CB5E1E18, ...)
+34:887  0:017  Found OperationRegion(CCDC, SystemMemory, 80000000, ...)
+34:903  0:015  === [ ACPIPatchedAML ] ====================================
+35:504  0:601  Unsorted
+35:520  0:015  Inserting SSDT-EC.AML from EFI\CLOVER\ACPI\patched: size=63 ... Success
+35:565  0:044  ApicCPUNum=8
+35:584  0:019  Maximum control=0x18
+35:604  0:020  Turbo control=0x22
+35:621  0:016  P-States: min 0x8, max 0x22
+35:637  0:015  SSDT with plugin-type without P-States is generated
+35:652  0:014  Cleanup XSDT: count=17, length=172
+35:666  0:014  corrected XSDT count=17, length=172
+35:680  0:014  === [ RestSetup macOS ] ===================================
+36:269  0:588  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+36:285  0:015     Add key=alc-layout-id valuelen=4
+36:299  0:014  add device: PciRoot(0x0)/Pci(0x2,0x0)
+36:313  0:014     Add key=framebuffer-patch-enable valuelen=4
+36:327  0:014     Add key=framebuffer-cursormem valuelen=4
+36:341  0:014     Add key=device-id valuelen=4
+36:355  0:014     Add key=AAPL,ig-platform-id valuelen=4
+36:370  0:014  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+36:391  0:020    FakeID Intel GFX = 0x04128086
+36:413  0:022    ig-platform-id = 0x0A260006
+36:437  0:024  Intel GFX revision  = 0x6
+36:459  0:021  stringlength = 1384
+36:479  0:019  CurrentMode: Width=3840 Height=2160
+36:496  0:016  Beginning FSInjection
+36:514  0:017  Use origin smbios table type 1 guid.
+36:530  0:016  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+36:544  0:014  Extra kext: EFI\CLOVER\kexts\Other\AtherosE2200Ethernet.kext (v.2.3.0)
+36:570  0:025  Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.1.1)
+36:598  0:028  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.1)
+36:637  0:038  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.1)
+36:670  0:033  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1)
+36:712  0:041  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1)
+36:754  0:041  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+36:815  0:061  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.2.1.1)
+36:847  0:031    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.2.1.1)
+36:876  0:029    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext.dSYM (v.2.1.1)
+36:898  0:021    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.2.1.1)
+36:925  0:027    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext.dSYM (v.2.1.1)
+36:945  0:019    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.2.1.1)
+36:978  0:033    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext.dSYM (v.2.1.1)
+36:998  0:019  Extra kext: EFI\CLOVER\kexts\Other\VoodooInput.kext (v.1.0.2)
+37:030  0:031  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+37:221  0:191  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.3)
+37:252  0:030  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+37:292  0:040  SetStartupDiskVolume:
+37:306  0:013    * Volume: 'Preboot'
+37:320  0:014    * LoaderPath: '\78F60A7E-518C-4A0E-8D5F-F7DD387F2A0B\com.apple.installer\boot.efi'
+37:334  0:014    * DevPath: Preboot
+37:348  0:014    * GUID = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+37:362  0:014    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>379AA682-9010-4D68-9245-4EBBFE6DA87C</string></dict></dict></dict></array>
+37:390  0:027  Custom boot screen not used because entry has unset use graphics
+37:404  0:014  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2394452234
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 1.3.2020,  22:23:15 (GMT)
+0:100  0:000  Starting Clover revision: 5092 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000) @C9C4B898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 38296523
+0:101  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E2 
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 0C55157E
+0:101  0:000  SmbiosTable.Type17->PartNumber = HMT451S6MFR8A-PB  
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'SATELLITE L50-A-1D5' with board 'VG10S'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=306C3
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000  MSR 0xE2 before patch 1E008405
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00080838_F3011800
+0:101  0:000  corrected FLEX_RATIO = 40000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 24.0/8
+0:101  0:000  Turbo: 32/32/33/34
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2400 MHz
+0:101  0:000  TSC: 2400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80014321)
+0:101  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1292 class=030200
+0:101  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:101  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:101  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:101  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:101  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:101  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:101  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:101  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:101  0:000  PCI (00|03:00.00) : 168C 0036 class=028000
+0:101  0:000   - WIFI: Vendor=Atheros
+0:101  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:101  0:000  PCI (00|04:00.00) : 1969 10A1 class=020000
+0:101  0:000   - LAN: 0 Vendor=Atheros
+0:101  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:101  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:101  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 4 bytes
+0:108  0:006  EFI\CLOVER\config.plist loaded: Success
+0:108  0:000  === [ GetListOfThemes ] ===================================
+0:110  0:002  === [ Found config plists ] ===============================
+0:110  0:000  - config.plist
+0:110  0:000  === [ GetEarlyUserSettings ] ==============================
+0:110  0:000  timeout set to 5
+0:110  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:216  0:105  KextsToPatch: 3 requested
+0:233  0:016   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:293  0:060   - patch disabled at config
+0:307  0:014   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:365  0:058   - patch disabled at config
+0:379  0:013   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:436  0:056   - patch disabled at config
+0:450  0:014  KernelToPatch: 1 requested
+0:465  0:014   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:508  0:042  Default theme: 
+0:522  0:014  ** Warning: unknown custom entry Type 'Other'
+0:537  0:015  === [ LoadDrivers ] =======================================
+1:180  0:642  Loading ApfsDriverLoader.efi  status=Success
+1:344  0:163   - driver needs connecting
+1:358  0:014  Loading FSInject.efi  status=Success
+1:405  0:047  Loading FwRuntimeServices.efi  status=Success
+1:552  0:146  Loading HFSPlus.efi  status=Success
+1:600  0:047   - driver needs connecting
+1:614  0:014  Loading OcQuirks.efi  status=Success
+1:665  0:051  Loading VirtualSmc.efi  status=Success
+1:826  0:160  2 drivers needs connecting ...
+1:840  0:014  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:868  0:028  HFS+ driver loaded
+1:882  0:014  APFS driver loaded
+1:898  0:015  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+3:114  1:216  === [ InitScreen ] ========================================
+3:763  0:648  Console modes reported: 5, available modes:
+3:777  0:013   - [01]: 80x25 (current mode)
+3:791  0:014   - [02]: 80x50
+3:807  0:015   - [03]: 100x31
+3:823  0:016   - [04]: 64x20
+3:845  0:022   - [05]: 102x32
+3:867  0:021  SetScreenResolution: 3840x2160 - already set
+3:907  0:040  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+3:930  0:022  Using embedded font: Success
+3:948  0:017  === [ GetMacAddress ] =====================================
+4:539  0:590  MAC address of LAN #0= 54:BE:F7:81:E5:63:
+4:652  0:113  MAC address of LAN #1= 54:BE:F7:81:E5:63:
+4:773  0:120  MAC address of LAN #2= 54:BE:F7:81:E5:63:
+4:895  0:122  MAC address of LAN #3= 54:BE:F7:81:E5:63:
+5:008  0:112  === [ ScanSPD ] ===========================================
+5:729  0:720  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+5:762  0:033  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E2E2 SerialNo=0308020906050203
+5:795  0:033  Slot: 2 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT451S6MFR8A-PBN0 SerialNo=000C05050105070E
+5:812  0:016  === [ GetAcpiTablesList ] =================================
+6:301  0:489  Get Acpi Tables List from RSDT:
+6:329  0:027   - [00]: FACP  TOSASU00 len=132
+6:343  0:013   - [01]: APIC  TOSASU00 len=146
+6:357  0:013   - [02]: FPDT  TOSASU00 len=68
+6:370  0:013   - [03]: ECDT  TOSASU00 len=193
+6:384  0:013   - [04]: SLIC  TOSASU00 len=374
+6:398  0:013   - [05]: MSDM  TOSASU00 len=85
+6:412  0:013   - [06]: LPIT  TOSASU00 len=92
+6:426  0:014   - [07]: SSDT  sensrhub len=552
+6:441  0:014   - [08]: SSDT  Cpu0Ist len=1367
+6:481  0:039   - [09]: SSDT  CpuPm len=2776
+6:498  0:017   - [10]: MCFG  TOSASU00 len=60
+6:514  0:016   - [11]: HPET  TOSASU00 len=56
+6:528  0:014   - [12]: SSDT  SataTabl len=789
+6:542  0:014   - [13]: SSDT  SaSsdt  len=6578
+6:556  0:013   - [14]: BGRT   len=56
+6:570  0:013  Calibrated TSC Frequency = 2394452234 = 2394MHz
+6:584  0:014  === [ GetUserSettings ] ===================================
+7:134  0:549  Add 2 devices:
+7:156  0:021  Add 3 properties:
+7:175  0:019   - [00]: NVidia Key: name, len: 8
+7:227  0:051   - [01]: NVidia Key: IOName, len: 9
+7:270  0:043   - [02]: NVidia Key: class-code, len: 4
+7:312  0:042  USB FixOwnership: no
+7:326  0:014  Dropping 1 tables:
+7:340  0:014   - [00]: Drop table  signature="DMAR" (52414D44) table-id="Cpu0Ist" (0074734930757043)
+7:615  0:274           - set table: 52414D44,   74734930757043 to drop: no
+7:668  0:052   - final DSDT Fix mask=00060050
+7:682  0:014  PatchesDSDT: 11 requested
+7:701  0:018   - [00]: (change APSS to APXX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:806  0:105    patch disabled at config
+7:822  0:015   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:893  0:071    patch disabled at config
+7:907  0:014   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:988  0:080    patch disabled at config
+8:008  0:020   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:096  0:087    patch disabled at config
+8:110  0:014   - [04]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:181  0:070    patch disabled at config
+8:195  0:014   - [05]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:266  0:071   - [06]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:337  0:071    patch disabled at config
+8:352  0:014   - [07]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:436  0:084    patch disabled at config
+8:450  0:014   - [08]: (change _REG to XREG in EC0) lenToFind: 7, lenToReplace: 7, Target Bridge: <null string>
+8:522  0:071    patch disabled at config
+8:536  0:014   - [09]: (ALS: change Method(RALS,0,S) XALS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+8:634  0:098    patch disabled at config
+8:650  0:015   - [10]: (change IEC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+8:739  0:088  Using ProductName from config: MacBookPro11,1
+8:754  0:015  BiosVersion: not set, Using BiosVersion from clover
+8:769  0:014  BiosVersion: MBP111.88Z.F000.B00.1907241312
+8:783  0:014  BiosReleaseDate: 07/24/2019
+8:797  0:014  Using EfiVersion from clover: 157.0.0.0.0
+8:811  0:014  Using FirmwareFeatures from clover: 0xE80FE137
+8:825  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+8:839  0:014  Using PlatformFeature from clover: 0x2
+8:858  0:018  === [ Found DSDT tables ] =================================
+9:657  0:799  === [ ScanVolumes ] =======================================
+10:298  0:640  Found 12 volumes with blockIO
+10:312  0:013  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)
+10:344  0:032          Result of bootcode detection: bootable unknown (legacy)
+10:364  0:019          USB volume
+10:385  0:021          USB volume
+10:407  0:021  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(1,MBR,0xD507C49B,0x800,0x64000)
+10:450  0:042          Result of bootcode detection: bootable unknown (legacy)
+10:468  0:018          USB volume
+10:483  0:014          USB volume
+10:502  0:019          This is SelfVolume !!
+10:516  0:014  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x3,0x0)\HD(2,MBR,0xD507C49B,0x64800,0x395B800)
+10:547  0:030          USB volume
+10:561  0:013          USB volume
+10:575  0:014  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+10:625  0:049  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+10:668  0:043          Found optical drive
+10:683  0:014  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,C85106FB-B550-431F-95EB-62E0556752F3,0x28,0x64000)
+10:712  0:029          Result of bootcode detection: bootable unknown (legacy)
+10:752  0:039  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)
+10:792  0:040          Result of bootcode detection: bootable unknown (legacy)
+10:808  0:015  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+10:837  0:028  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7E0AF6788C510E4A8D5FF7DD387F2A0B)
+10:865  0:028  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D48A3728C2768549BD3E40DC9C35BBD8)
+10:909  0:043  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E53ECCFBC341864BB3735BA1B30B80D6)
+10:950  0:040  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AB3685CA2618734FB518BCCCB3009660)
+10:983  0:033  No AudioIoProtocols, status=Not Found
+10:998  0:014  === [ InitTheme ] =========================================
+11:688  0:690  use night theme
+11:702  0:014   using embedded theme
+11:716  0:014  got embedded sound
+11:730  0:014    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+11:745  0:014  output to channel 0 with volume 70, len=25600
+11:759  0:014   sound channels=2 bits=16 freq=8000
+11:795  0:035  sound converted to 48kHz
+11:817  0:021  not found AudioIo to play
+11:834  0:017  sound play end with status=Not Found
+11:853  0:018  Using embedded font: Success
+11:868  0:015  theme inited
+11:883  0:014  Chosen embedded theme
+11:897  0:014  after NVRAM boot-args=-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check
+11:911  0:014  === [ Dump SMC keys from NVRAM ] ==========================
+12:344  0:432  found AppleSMC protocol
+12:385  0:040  === [ AddCustomEntries ] ==================================
+12:968  0:582  Custom entry 0 skipped because it is disabled.
+12:985  0:017  === [ ScanLoader ] ========================================
+13:681  0:695  - [01]: 'BOOT'
+13:716  0:034          AddLoaderEntry for Volume Name=BOOT
+13:730  0:013          skipped because entry is hidden
+13:744  0:014  - [02]: 'macOS Base System'
+13:783  0:039          AddLoaderEntry for Volume Name=macOS Base System
+13:797  0:013      Not match custom entry 0: Type: not match
+13:880  0:082  - [05]: 'EFI'
+13:922  0:042  - [07]: 'Preboot'
+13:983  0:061          AddLoaderEntry for Volume Name=Preboot
+13:997  0:014      Not match custom entry 0: Type: not match
+14:065  0:067      hibernated: set as never
+14:081  0:015  - [08]: 'macOS - Data'
+14:145  0:064  - [09]: 'Recovery'
+14:199  0:054          AddLoaderEntry for Volume Name=Recovery
+14:214  0:014      Not match custom entry 0: Type: not match
+14:284  0:070  - [10]: 'VM'
+14:312  0:028  - [11]: 'macOS'
+14:603  0:290          AddLoaderEntry for Volume Name=macOS
+14:619  0:016      Not match custom entry 0: Type: not match
+14:716  0:097      hibernated: set as never
+14:731  0:014  Scanning legacy ...
+14:745  0:014  === [ AddCustomTool ] =====================================
+15:372  0:627  found tool \EFI\CLOVER\tools\Shell64U.efi
+15:386  0:013  Checking EFI partition Volume 5 for Clover
+15:427  0:040  === [ GetEfiBootDeviceFromNvram ] =========================
+15:851  0:424   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)\CA8536AB-1826-4F73-B518-BCCCB3009660\System\Library\CoreServices\boot.efii
+15:880  0:028    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)'
+15:894  0:014    - LoaderPath: '\CA8536AB-1826-4F73-B518-BCCCB3009660\System\Library\CoreServices\boot.efi'
+15:910  0:015    - Guid = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+15:924  0:014  === [ FindStartupDiskVolume ] =============================
+16:423  0:499    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,379AA682-9010-4D68-9245-4EBBFE6DA87C,0x64028,0x574E26A0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A44F89BEAB0E2943A9CE572B0D370B10)
+16:438  0:014     - searching for that partition and loader '\CA8536AB-1826-4F73-B518-BCCCB3009660\System\Library\CoreServices\boot.efi'
+16:454  0:016      - found entry 1. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\CA8536AB-1826-4F73-B518-BCCCB3009660\System\Library\CoreServices\boot.efi'
+16:469  0:014  Boot redirected to Entry 1. 'Boot FileVault Prebooter from Preboot'
+16:483  0:014  DefaultIndex=1 and MainMenu.EntryCount=9
+17:000  0:516  GUI ready
+23:099  6:099  exit from MainMenu 4
+23:113  0:014  === [ StartLoader ] =======================================
+23:788  0:674  Finally: ExternalClock=25MHz BusSpeed=99769kHz CPUFreq=2394MHz PIS: hw.busfrequency=100000000Hz
+23:816  0:028  Loading boot.efi  status=Success
+24:343  0:526  GetOSVersion: 10.15.3 (19D76)
+24:372  0:028  Filtering KextPatches:
+24:386  0:014   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+24:414  0:028   - [01]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+24:455  0:041   - [02]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+24:484  0:028  Filtering KernelPatches:
+24:498  0:014   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+26:530  2:032  Will not patch boot.efi
+26:545  0:014  === [ PatchSmbios ] =======================================
+27:158  0:612  insert table 9 for dev 0:0
+27:172  0:014  insert table 9 for dev 0:0
+27:186  0:014  Table 11 present, but rewritten for us
+27:203  0:016  Trusting SMBIOS...
+27:224  0:020  Detected alternating SMBIOS channel banks
+27:244  0:019  Channels: 2
+27:262  0:017  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+27:663  0:400   partNum=8KTF51264HZ-1G6E2 
+27:677  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+27:698  0:020  BANK 0 DIMM0 1600MHz 4096MB
+27:720  0:021   partNum=HMT451S6MFR8A-PB  
+27:739  0:019  SMBIOS Type 17 Index = 1 => 1 2:
+27:757  0:017  BANK 1 DIMM0 1600MHz 4096MB
+27:773  0:015  mTotalSystemMemory = 8192
+27:789  0:016  NumberOfMemoryDevices = 2
+27:805  0:016  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+27:820  0:014  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+27:834  0:014  Table 131 is present, CPUType=10
+27:850  0:015  Change to: 705
+27:865  0:014  === [ PatchACPI ] =========================================
+28:525  0:660  Xsdt reallocation done
+28:539  0:014  old FADT length=10C
+28:553  0:014   SignatureFixup: 0xD366EE16 -> 0x0
+28:573  0:019  Apply DsdtFixMask=0x00060050
+28:587  0:013     drop _DSM mask=0x0000
+28:601  0:014  === [ FixBiosDsdt ] =======================================
+29:247  0:646  Patching DSDT:
+29:269  0:021   - [change APSS to APXX]: disabled
+29:310  0:041   - [change _DSM to XDSM]: disabled
+29:358  0:048   - [change EHC1 to EH01]: disabled
+29:391  0:033   - [change EHC2 to EH02]: disabled
+29:422  0:030   - [change _OSI to XOSI]: disabled
+29:451  0:028   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+29:493  0:042   - [change SAT0 to SATA]: disabled
+29:522  0:028   - [change LPC to LPCB]: disabled
+29:553  0:031   - [change _REG to XREG in EC0]: disabled
+29:593  0:040   - [ALS: change Method(RALS,0,S) XALS]: disabled
+29:632  0:038   - [change IEC to EC]: pattern 4945435F, patched at: [ (51A7) (552) (E5) (51FF) (1DA7) (20) (53) (22F) (15) (15) (22) (F) (F) (15) (F) (64) (CF) (AA) (15) (28) (19) (F) (F) (F) (5B) (50) (33B) (3E) (61) (62) (19D) (36E) (13) (13) (47) (13) (13) (4C) (13) (13) (154) (40) (8E) (13) (13) (84) (28) (35) (477) (14A) (17E) (86A) (17) (146A) (F09) (1A3) (14) (3C) (14) (31) (14) (29) (2B) (14) (63) (1DCC) (178E) (281) (23) (804) (D4) (27) (6F5) (83) (C3E) (17C) (10A) (443) (1D6) (1E) (2D) (39) (9F) (14) (1A) (1B) (4A) (1B) (21) (1B) (29) (1B) (21) (1B) (2D) (1B) (21) (1B) (29) (1B) (27) (1B) (21) (1B) (26) (1B) (58) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (F7) (10) (10) (28) (14) (15) (14) (CC) (21) (3D) (10) (10) (45) (10) (10) (45) (10) (10) (F9) (10) (10) (FA) (10) (10) (2E3) (19) (28) (14) (17) (24E) (1B) (D1) (1B) (12A) (2A) (22) (1E) (D5) (1E) (17E) (1B) (34) (1B) (F3) (2DF) (17) (230) (15) (275) (4A) (231) (63) (7C) (7E) (14) (ADF) (6F) (1D) (1F) (9B) (14) (2E) (14) (17E) (37) (37) (177) (1C) (E2F) (16) (119) (18) (21) (15) (55) (23) (7D) (19) (15) (2A) (F9) (2C) (278) (4C) (2C) (20F) (25) (1A) (17) (64) (6D) (65) (7B) (11) (84) (95) (43) (4C) (10) (10) (15) (14) (1E) (10) (10) (16) (14) (170A) (3E) (29) (1F) (1C) (2D) (20) (2E) (1F) (26) (15) (2A) (26) (3F) (35) (37) (936) (2AC) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (3C) (17) (18) (18) (13) (17) (13) (3C) (17) (13) (18) (18) (13) (13) (17) (31) (7C) (1F) (23) (2D) (49) (18) (13) (13) (21) (49) (BA) (12B) ]
+34:241  4:608    0 replacements
+34:270  0:028  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+34:284  0:014  found RTC had IRQNoFlag will move -3 bytes
+34:299  0:014  found PIC had IRQNoFlag will move -3 bytes
+34:313  0:014  Start HPET Fix
+34:335  0:021  PreCleanup XSDT: count=15, length=156
+34:358  0:022  PreCleanup XSDT, corrected XSDT: count=15, length=156
+34:380  0:021  === [ ACPIDropTables ] ====================================
+34:998  0:618  Patching SSDT sensrhub Length=552
+35:020  0:022  0. [change APSS to APXX]: disabled
+35:065  0:044  1. [change _DSM to XDSM]: disabled
+35:099  0:033  2. [change EHC1 to EH01]: disabled
+35:132  0:033  3. [change EHC2 to EH02]: disabled
+35:161  0:029  4. [change _OSI to XOSI]: disabled
+35:190  0:028  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+35:232  0:042  6. [change SAT0 to SATA]: disabled
+35:260  0:028  7. [change LPC to LPCB]: disabled
+35:292  0:031  8. [change _REG to XREG in EC0]: disabled
+35:336  0:044  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+35:375  0:038  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+35:420  0:044    0 replacements
+35:434  0:014  Patching SSDT Cpu0Ist Length=1367
+35:448  0:014  0. [change APSS to APXX]: disabled
+35:476  0:028  1. [change _DSM to XDSM]: disabled
+35:505  0:028  2. [change EHC1 to EH01]: disabled
+35:533  0:028  3. [change EHC2 to EH02]: disabled
+35:562  0:029  4. [change _OSI to XOSI]: disabled
+35:604  0:041  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+35:664  0:060  6. [change SAT0 to SATA]: disabled
+35:702  0:037  7. [change LPC to LPCB]: disabled
+35:731  0:029  8. [change _REG to XREG in EC0]: disabled
+35:760  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+35:787  0:027  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+35:845  0:058    0 replacements
+35:859  0:014  Patching SSDT CpuPm Length=2776
+35:880  0:020  0. [change APSS to APXX]: disabled
+35:921  0:041  1. [change _DSM to XDSM]: disabled
+35:977  0:056  2. [change EHC1 to EH01]: disabled
+36:010  0:032  3. [change EHC2 to EH02]: disabled
+36:063  0:053  4. [change _OSI to XOSI]: disabled
+36:091  0:027  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+36:132  0:041  6. [change SAT0 to SATA]: disabled
+36:160  0:027  7. [change LPC to LPCB]: disabled
+36:188  0:028  8. [change _REG to XREG in EC0]: disabled
+36:221  0:032  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+36:259  0:038  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+36:314  0:055    0 replacements
+36:331  0:017  Found OperationRegion(PPMT, SystemMemory, CB5EEF18, ...)
+36:347  0:015  Patching SSDT SataTabl Length=789
+36:362  0:014  0. [change APSS to APXX]: disabled
+36:391  0:028  1. [change _DSM to XDSM]: disabled
+36:419  0:028  2. [change EHC1 to EH01]: disabled
+36:447  0:028  3. [change EHC2 to EH02]: disabled
+36:475  0:028  4. [change _OSI to XOSI]: disabled
+36:504  0:029  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+36:577  0:072  6. [change SAT0 to SATA]: disabled
+36:620  0:043  7. [change LPC to LPCB]: disabled
+36:662  0:042  8. [change _REG to XREG in EC0]: disabled
+36:697  0:034  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+36:726  0:029  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+36:769  0:042    0 replacements
+36:783  0:014  Patching SSDT SaSsdt  Length=6578
+36:797  0:013  0. [change APSS to APXX]: disabled
+36:826  0:029  1. [change _DSM to XDSM]: disabled
+36:855  0:028  2. [change EHC1 to EH01]: disabled
+36:901  0:045  3. [change EHC2 to EH02]: disabled
+36:944  0:043  4. [change _OSI to XOSI]: disabled
+36:984  0:039  5. [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+37:040  0:055  6. [change SAT0 to SATA]: disabled
+37:071  0:031  7. [change LPC to LPCB]: disabled
+37:100  0:028  8. [change _REG to XREG in EC0]: disabled
+37:129  0:028  9. [ALS: change Method(RALS,0,S) XALS]: disabled
+37:170  0:041  10. [change IEC to EC]: pattern 4945435F, bin not found / already patched!
+37:212  0:042    0 replacements
+37:227  0:014  Found OperationRegion(SANV, SystemMemory, CB5E1E18, ...)
+37:244  0:017  Found OperationRegion(CCDC, SystemMemory, 80000000, ...)
+37:266  0:021  === [ ACPIPatchedAML ] ====================================
+37:867  0:601  Unsorted
+37:888  0:021  Inserting SSDT-EC.AML from EFI\CLOVER\ACPI\patched: size=63 ... Success
+37:955  0:066  ApicCPUNum=8
+37:979  0:024  Maximum control=0x18
+37:999  0:019  Turbo control=0x22
+38:015  0:016  P-States: min 0x8, max 0x22
+38:030  0:015  SSDT with plugin-type without P-States is generated
+38:045  0:014  Cleanup XSDT: count=17, length=172
+38:059  0:014  corrected XSDT count=17, length=172
+38:073  0:014  === [ RestSetup macOS ] ===================================
+38:682  0:608  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+38:696  0:014     Add key=alc-layout-id valuelen=4
+38:710  0:014  add device: PciRoot(0x0)/Pci(0x2,0x0)
+38:726  0:015     Add key=framebuffer-patch-enable valuelen=4
+38:740  0:014     Add key=framebuffer-cursormem valuelen=4
+38:755  0:014     Add key=device-id valuelen=4
+38:771  0:016     Add key=AAPL,ig-platform-id valuelen=4
+38:792  0:021  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+38:812  0:019    FakeID Intel GFX = 0x04128086
+38:829  0:017    ig-platform-id = 0x0A260006
+38:846  0:017  Intel GFX revision  = 0x6
+38:864  0:017  stringlength = 1384
+38:881  0:017  CurrentMode: Width=3840 Height=2160
+38:905  0:024  Beginning FSInjection
+38:927  0:021  Use origin smbios table type 1 guid.
+38:944  0:017  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+38:959  0:014  Extra kext: EFI\CLOVER\kexts\Other\AtherosE2200Ethernet.kext (v.2.3.0)
+38:985  0:026  Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.1.1)
+39:013  0:028  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.1)
+39:039  0:026  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.1)
+39:076  0:036  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1)
+39:099  0:023  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1)
+39:125  0:026  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+39:242  0:116  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.2.1.1)
+39:289  0:047    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.2.1.1)
+39:319  0:030    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext.dSYM (v.2.1.1)
+39:343  0:023    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.2.1.1)
+39:369  0:026    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext.dSYM (v.2.1.1)
+39:389  0:019    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.2.1.1)
+39:421  0:032    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext.dSYM (v.2.1.1)
+39:457  0:035  Extra kext: EFI\CLOVER\kexts\Other\VoodooInput.kext (v.1.0.2)
+39:509  0:052  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+39:616  0:106  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.3)
+39:647  0:030  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+39:686  0:039  SetStartupDiskVolume:
+39:700  0:013    * Volume: 'Preboot'
+39:716  0:016    * LoaderPath: '<null string>'
+39:733  0:016    * DevPath: Preboot
+39:755  0:022    * GUID = 379AA682-9010-4D68-9245-4EBBFE6DA87C
+39:777  0:021    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>379AA682-9010-4D68-9245-4EBBFE6DA87C</string></dict></dict></dict></array>
+39:799  0:022  Custom boot screen not used because entry has unset use graphics
+39:816  0:016  Closing log
