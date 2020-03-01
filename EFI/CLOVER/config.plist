@@ -170,7 +170,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-uia_exclude_hs uia_include=HS02</string>
+		<string>-no_compat_check -uia_exclude_hs uia_include=HS02</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
