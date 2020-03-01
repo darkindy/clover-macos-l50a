@@ -170,11 +170,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-no_compat_check -uia_exclude_hs uia_include=HS02</string>
+		<string>-v debug=0x100 keepsyms=1 -uia_exclude_hs uia_include=HS02 -no_compat_check</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -381,7 +381,7 @@
 		<key>AppleRTC</key>
 		<false/>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
