@@ -195,41 +195,8 @@
 		<key>#FakeID</key>
 		<dict>
 			<key>IntelGFX</key>
-			<string>0x04128086</string>
+			<string>0</string>
 		</dict>
-		<key>AddProperties</key>
-		<array>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
-				<data>I2Rpc3BsYXk=</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
-				<data>/////w==</data>
-			</dict>
-		</array>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
@@ -243,6 +210,11 @@
 			<dict>
 				<key>alc-layout-id</key>
 				<integer>1</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>CiYABg==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -297,6 +269,8 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>#ig-platform-id</key>
+		<string>0xa260006</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -308,8 +282,6 @@
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0xa260006</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
