@@ -174,7 +174,7 @@
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -334,7 +334,7 @@
 					<key>Ignore</key>
 					<false/>
 					<key>NoCaches</key>
-					<false/>
+					<true/>
 					<key>Type</key>
 					<string>Other</string>
 				</dict>
@@ -354,7 +354,7 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1366x768</string>
+		<string>3840x2160</string>
 		<key>Theme</key>
 		<string></string>
 	</dict>
@@ -377,9 +377,9 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<true/>
 		<key>KernelCpu</key>
@@ -387,7 +387,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -409,7 +409,7 @@
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
@@ -461,17 +461,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>C02430600GUFJQWUE</string>
+		<string>C02342600J9FH31JA</string>
 		<key>Mobile</key>
 		<true/>
 		<key>ProductName</key>
-		<string>MacBookPro11,2</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02N40KTG86R</string>
+		<string>C02LK0YVFH00</string>
 		<key>SmUUID</key>
 		<string>5C8C1459-CABF-40D1-801F-306999B8C0E5</string>
 		<key>Trust</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
