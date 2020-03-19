@@ -1,7 +1,8 @@
-## Ignore Mac OS Stuff
+# Ignore Mac OS Stuff
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
 # Files that might appear in the root of a volume
 /Android
@@ -12,3 +13,8 @@
 .Trashes
 .VolumeIcon.icns
 /System Volume Information
+
+# Clover dumps
+/EFI/CLOVER/ACPI/origin
+/EFI/CLOVER/misc
+
