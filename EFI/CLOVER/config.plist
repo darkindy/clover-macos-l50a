@@ -172,7 +172,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0</string>
+		<string>dart=0 -alcdbg -liludbg -alcbeta -lilubetaall alcid=3</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
@@ -197,7 +197,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>3</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -208,7 +208,7 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<key>PciRoot(0x0)/Pci(0x02,0x0)</key>
 			<dict>
 				<key>## @1 HDMI</key>
 				<string></string>
@@ -270,6 +270,13 @@
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<integer>1</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>alc-layout-id</key>
+				<integer>3</integer>
+				<key>layout-id</key>
+				<integer>3</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
