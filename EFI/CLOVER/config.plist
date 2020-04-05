@@ -306,7 +306,6 @@
 		</dict>
 		<key>Hide</key>
 		<array>
-			<string>Microsoft</string>
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
@@ -317,7 +316,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<true/>
+			<false/>
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>

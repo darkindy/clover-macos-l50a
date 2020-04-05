@@ -5,7 +5,6 @@
 ._*
 
 # Files that might appear in the root of a volume
-/EFI/APPLE
 /Android
 .DocumentRevisions-V100
 .fseventsd
@@ -18,4 +17,8 @@
 # Clover dumps
 /EFI/CLOVER/ACPI/origin
 /EFI/CLOVER/misc
+
+# Other EFI files
+/EFI/APPLE
+/EFI/Microsoft
 
