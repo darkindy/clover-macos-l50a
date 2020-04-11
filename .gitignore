@@ -5,6 +5,7 @@
 ._*
 
 # Files that might appear in the root of a volume
+boot
 /Android
 .DocumentRevisions-V100
 .fseventsd
