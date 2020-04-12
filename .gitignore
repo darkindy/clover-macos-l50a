@@ -1,9 +1,11 @@
-## Ignore Mac OS Stuff
+# Ignore Mac OS Stuff
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
 # Files that might appear in the root of a volume
+boot
 /Android
 .DocumentRevisions-V100
 .fseventsd
@@ -11,4 +13,13 @@
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+/System Volume Information
+
+# Clover dumps
+/EFI/CLOVER/ACPI/origin
+/EFI/CLOVER/misc
+
+# Other EFI files
+/EFI/APPLE
+/EFI/Microsoft
 
