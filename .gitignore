@@ -6,6 +6,8 @@
 
 # Files that might appear in the root of a volume
 boot
+mach_kernel
+/System
 /Android
 .DocumentRevisions-V100
 .fseventsd
@@ -22,4 +24,5 @@ boot
 # Other EFI files
 /EFI/APPLE
 /EFI/Microsoft
+/EFI/fedora
 
